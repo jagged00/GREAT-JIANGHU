@@ -1,0 +1,378 @@
+# Imported and ported cultivation decisions from refs.
+
+claim_heavenly_mandate_vassal_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds" }
+    sort_order = 400
+    decision_group_type = major
+
+    title = claim_heavenly_mandate_vassal_title
+    desc = claim_heavenly_mandate_vassal_desc
+    confirm_text = claim_heavenly_mandate_vassal_confirm
+    selection_tooltip = claim_heavenly_mandate_vassal_tooltip
+
+    is_shown = {
+        is_cultivator = yes
+        is_respected_cultivator = yes
+        exists = liege
+        NOT = { has_trait = conqueror }
+        NOT = { has_character_flag = mandate_claimed_once }
+    }
+
+    is_valid = { prowess >= 20 }
+
+    ai_check_interval = 60
+    ai_potential = { always = yes }
+    ai_will_do = {
+        base = 0
+        modifier = {
+            add = 10000
+            OR = {
+                has_trait = wrathful
+                has_trait = ambitious
+                has_trait = sadistic
+                has_trait = callous
+            }
+        }
+    }
+
+    effect = {
+        add_trait = conqueror
+        add_pressed_claim = liege.primary_title
+        add_character_flag = mandate_claimed_once
+    }
+}
+
+claim_heavenly_mandate_independent_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds" }
+    sort_order = 401
+    decision_group_type = major
+
+    title = claim_heavenly_mandate_independent_title
+    desc = claim_heavenly_mandate_independent_desc
+    confirm_text = claim_heavenly_mandate_independent_confirm
+    selection_tooltip = claim_heavenly_mandate_independent_tooltip
+
+    is_shown = {
+        is_cultivator = yes
+        is_respected_cultivator = yes
+        NOT = { exists = liege }
+        NOT = { has_trait = conqueror }
+        NOT = { has_character_flag = mandate_claimed_once }
+    }
+
+    is_valid = { prowess >= 20 }
+
+    ai_check_interval = 60
+    ai_potential = { always = yes }
+    ai_will_do = {
+        base = 0
+        modifier = {
+            add = 10000
+            OR = {
+                has_trait = wrathful
+                has_trait = ambitious
+                has_trait = sadistic
+                has_trait = callous
+            }
+        }
+    }
+
+    effect = {
+        add_trait = conqueror
+        add_character_flag = mandate_claimed_once
+    }
+}
+
+claim_superior_realm_liege_title_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds" }
+    sort_order = 410
+    decision_group_type = major
+
+    title = claim_superior_realm_liege_title
+    desc = claim_superior_realm_liege_desc
+    confirm_text = claim_superior_realm_liege_confirm
+    selection_tooltip = claim_superior_realm_liege_tooltip
+
+    is_shown = {
+        is_cultivator = yes
+        exists = liege
+
+        OR = {
+            has_trait = cultivation_core_formation
+            has_trait = cultivation_nascent_soul
+            has_trait = cultivation_heavenly_being
+            has_trait = cultivation_four_axis
+            has_trait = cultivation_integration
+            has_trait = cultivation_star_shattering
+            has_trait = cultivation_sacred_vessel
+            has_trait = cultivation_entering_nirvana
+            has_trait = cultivation_true_immortal
+        }
+
+        liege = {
+            NOT = {
+                OR = {
+                    has_trait = cultivation_core_formation
+                    has_trait = cultivation_nascent_soul
+                    has_trait = cultivation_heavenly_being
+                    has_trait = cultivation_four_axis
+                    has_trait = cultivation_integration
+                    has_trait = cultivation_star_shattering
+                    has_trait = cultivation_sacred_vessel
+                    has_trait = cultivation_entering_nirvana
+                    has_trait = cultivation_true_immortal
+                }
+            }
+        }
+
+        NOT = { has_trait = conqueror }
+        NOT = { has_character_flag = superior_realm_claim_used }
+    }
+
+    is_valid = { prowess >= 20 }
+
+    ai_check_interval = 30
+    ai_potential = { always = yes }
+    ai_will_do = {
+        base = 0
+        modifier = {
+            add = 10000
+            OR = {
+                has_trait = wrathful
+                has_trait = ambitious
+                has_trait = sadistic
+                has_trait = callous
+            }
+        }
+    }
+
+    effect = {
+        add_pressed_claim = liege.primary_title
+        add_character_flag = superior_realm_claim_used
+    }
+}
+
+purify_mortal_shell_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_misc.dds" }
+    sort_order = 360
+    decision_group_type = major
+
+    title = purify_mortal_shell_decision
+    desc = purify_mortal_shell_decision_desc
+    confirm_text = purify_mortal_shell_decision_confirm
+    selection_tooltip = purify_mortal_shell_decision_tooltip
+
+    is_shown = {
+        is_cultivator = yes
+        NOT = { has_character_flag = purified_mortal_shell_cooldown }
+        OR = {
+            has_trait = ill
+            has_trait = gout_ridden
+            has_trait = leper
+            has_trait = lovers_pox
+            has_trait = early_great_pox
+            has_trait = great_pox
+            has_trait = bubonic_plague
+            has_trait = smallpox
+            has_trait = measles
+            has_trait = pneumonic
+            has_trait = typhus
+            has_trait = dysentery
+            has_trait = consumption
+            has_trait = ergotism
+            has_trait = cancer
+            has_trait = wounded_1
+            has_trait = wounded_2
+            has_trait = wounded_3
+            has_trait = scarred
+            has_trait = infirm
+            has_trait = blind
+            has_trait = beauty_bad_1
+            has_trait = beauty_bad_2
+            has_trait = beauty_bad_3
+            has_trait = maimed
+            has_trait = inbred
+            has_trait = infertile
+            has_trait = bleeder
+            has_trait = wheezing
+            has_trait = impotent
+            has_trait = spindly
+            has_trait = scaly
+            has_trait = weak
+            has_trait = dull
+            has_trait = stuttering
+            has_trait = dwarf
+            has_trait = lisping
+            has_trait = clubfooted
+            has_trait = beardless_eunuch
+            has_trait = eunuch_1
+            has_trait = disfigured
+            has_trait = one_eyed
+            has_trait = one_arm
+            has_trait = one_legged
+            has_trait = incapable
+        }
+    }
+
+    is_valid = { always = yes }
+
+    ai_check_interval = 60
+    ai_potential = { always = yes }
+    ai_will_do = { base = 1000000 }
+
+    effect = {
+        remove_trait = ill
+        remove_trait = gout_ridden
+        remove_trait = leper
+        remove_trait = lovers_pox
+        remove_trait = early_great_pox
+        remove_trait = great_pox
+        remove_trait = bubonic_plague
+        remove_trait = smallpox
+        remove_trait = measles
+        remove_trait = pneumonic
+        remove_trait = typhus
+        remove_trait = dysentery
+        remove_trait = consumption
+        remove_trait = ergotism
+        remove_trait = cancer
+        remove_trait = wounded_1
+        remove_trait = wounded_2
+        remove_trait = wounded_3
+        remove_trait = scarred
+        remove_trait = infirm
+        remove_trait = blind
+        remove_trait = physique_bad_1
+        remove_trait = physique_bad_2
+        remove_trait = physique_bad_3
+        remove_trait = beauty_bad_1
+        remove_trait = beauty_bad_2
+        remove_trait = beauty_bad_3
+        remove_trait = maimed
+        remove_trait = inbred
+        remove_trait = infertile
+        remove_trait = bleeder
+        remove_trait = wheezing
+        remove_trait = impotent
+        remove_trait = spindly
+        remove_trait = scaly
+        remove_trait = weak
+        remove_trait = dull
+        remove_trait = stuttering
+        remove_trait = dwarf
+        remove_trait = lisping
+        remove_trait = clubfooted
+        remove_trait = beardless_eunuch
+        remove_trait = eunuch_1
+        remove_trait = disfigured
+        remove_trait = one_eyed
+        remove_trait = one_arm
+        remove_trait = one_legged
+        remove_trait = incapable
+        remove_trait = intellect_bad_1
+        remove_trait = intellect_bad_2
+        remove_trait = intellect_bad_3
+
+        add_character_flag = { flag = purified_mortal_shell_cooldown days = 730 }
+    }
+}
+
+grant_qi_gathering_to_meridian_holders_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_misc.dds" }
+    sort_order = 350
+    decision_group_type = major
+
+    title = grant_qi_gathering_to_meridian_holders_decision
+    desc = grant_qi_gathering_to_meridian_holders_decision_desc
+    confirm_text = grant_qi_gathering_to_meridian_holders_decision_confirm
+    selection_tooltip = qi_gathering_granted_tooltip
+
+    is_shown = {
+        is_cultivator = yes
+        OR = {
+            any_courtier = { is_mortal = yes }
+            any_vassal = { is_mortal = yes }
+        }
+        NOT = { has_character_flag = qi_gathering_granted_cooldown }
+    }
+
+    is_valid = { always = yes }
+
+    ai_check_interval = 60
+    ai_potential = { always = yes }
+    ai_will_do = { base = 1000000 }
+
+    effect = {
+        every_courtier = {
+            limit = { is_mortal = yes }
+            add_trait = cultivation_qi_gathering
+        }
+        every_vassal = {
+            limit = { is_mortal = yes }
+            add_trait = cultivation_qi_gathering
+        }
+        every_realm_character = {
+            limit = {
+                is_mortal = yes
+                NOT = { is_courtier_of = root }
+                NOT = { is_vassal_of = root }
+            }
+            add_trait = cultivation_qi_gathering
+        }
+
+        add_character_flag = { flag = qi_gathering_granted_cooldown days = 3650 }
+        custom_tooltip = qi_gathering_granted_tooltip
+    }
+}
+
+
+teach_cultivation_to_court_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_learning.dds" }
+    sort_order = 345
+    decision_group_type = major
+
+    title = teach_cultivation_to_court_decision
+    desc = teach_cultivation_to_court_decision_desc
+    confirm_text = teach_cultivation_to_court_decision_confirm
+    selection_tooltip = teach_cultivation_to_court_decision_tooltip
+
+    is_shown = {
+        is_cultivator = yes
+        OR = {
+            has_trait = cultivation_qi_refining
+            has_trait = cultivation_qi_building
+            has_trait = cultivation_core_formation
+            has_trait = cultivation_nascent_soul
+            has_trait = cultivation_heavenly_being
+            has_trait = cultivation_four_axis
+            has_trait = cultivation_integration
+            has_trait = cultivation_star_shattering
+            has_trait = cultivation_sacred_vessel
+            has_trait = cultivation_entering_nirvana
+            has_trait = cultivation_true_immortal
+        }
+        any_courtier = { is_mortal = yes }
+        NOT = { has_character_flag = taught_cultivation_recently }
+    }
+
+    is_valid = { always = yes }
+
+    ai_check_interval = 20
+    ai_potential = {
+        is_cultivator = yes
+        any_courtier = { is_mortal = yes }
+        NOT = { has_character_flag = taught_cultivation_recently }
+    }
+    ai_will_do = { base = 1000 }
+
+    effect = {
+        every_courtier = {
+            limit = { is_mortal = yes }
+            add_trait = cultivation_qi_gathering
+        }
+
+        add_piety = 100
+        add_character_flag = { flag = taught_cultivation_recently days = 1825 }
+        custom_tooltip = teach_cultivation_to_court_decision_effect_tooltip
+    }
+}

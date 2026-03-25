@@ -1,0 +1,246 @@
+# Summon Qi realm techniques (adapted to current cultivation realms)
+
+summon_thousand_qi_needles_decision = {
+	decision_group_type = major
+	title = summon_thousand_qi_needles_decision
+	desc = summon_thousand_qi_needles_decision_desc
+	selection_tooltip = summon_thousand_qi_needles_decision_tooltip
+	confirm_text = summon_thousand_qi_needles_decision_confirm
+	is_shown = {
+		has_trait = cultivation_qi_gathering
+	}
+	is_valid = { prowess >= 10 }
+	effect = {
+		custom_tooltip = summon_thousand_qi_needles_decision_effect1
+		custom_tooltip = summon_thousand_qi_needles_decision_effect2
+		add_prestige = 50
+		add_stress = -100
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = thousand_qi_needles stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_qi_gathering
+	}
+	ai_will_do = { base = 100 }
+}
+
+summon_nine_heavens_sword_intent_decision = {
+	decision_group_type = major
+	title = summon_nine_heavens_sword_intent_decision
+	desc = summon_nine_heavens_sword_intent_decision_desc
+	selection_tooltip = summon_nine_heavens_sword_intent_decision_tooltip
+	confirm_text = summon_nine_heavens_sword_intent_decision_confirm
+	is_shown = {
+		has_trait = cultivation_qi_refining
+	}
+	is_valid = { prowess >= 15 }
+	effect = {
+		custom_tooltip = summon_nine_heavens_sword_intent_decision_effect1
+		custom_tooltip = summon_nine_heavens_sword_intent_decision_effect2
+		add_prestige = 50
+		add_stress = -200
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = nine_heavens_sword_intent stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_qi_refining
+	}
+	ai_will_do = { base = 100 }
+}
+
+summon_golden_core_flame_lotus_decision = {
+	decision_group_type = major
+	title = summon_golden_core_flame_lotus_decision
+	desc = summon_golden_core_flame_lotus_decision_desc
+	selection_tooltip = summon_golden_core_flame_lotus_decision_tooltip
+	confirm_text = summon_golden_core_flame_lotus_decision_confirm
+	is_shown = {
+		has_trait = cultivation_qi_building
+	}
+	is_valid = { prowess >= 25 }
+	effect = {
+		custom_tooltip = summon_golden_core_flame_lotus_decision_effect1
+		custom_tooltip = summon_golden_core_flame_lotus_decision_effect2
+		add_prestige = 50
+		add_stress = -300
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = golden_core_flame_lotus stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_qi_building
+	}
+	ai_will_do = { base = 100 }
+}
+
+summon_nascent_soul_phantom_decision = {
+	decision_group_type = major
+	title = summon_nascent_soul_phantom_decision
+	desc = summon_nascent_soul_phantom_decision_desc
+	selection_tooltip = summon_nascent_soul_phantom_decision_tooltip
+	confirm_text = summon_nascent_soul_phantom_decision_confirm
+	is_shown = {
+		has_trait = cultivation_core_formation
+	}
+	is_valid = { prowess >= 30 }
+	effect = {
+		custom_tooltip = summon_nascent_soul_phantom_decision_effect1
+		custom_tooltip = summon_nascent_soul_phantom_decision_effect2
+		add_prestige = 50
+		add_stress = -500
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = nascent_soul_phantom stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_core_formation
+	}
+	ai_will_do = { base = 100 }
+}
+
+summon_heaven_severing_blade_decision = {
+	decision_group_type = major
+	title = summon_heaven_severing_blade_decision
+	desc = summon_heaven_severing_blade_decision_desc
+	selection_tooltip = summon_heaven_severing_blade_decision_tooltip
+	confirm_text = summon_heaven_severing_blade_decision_confirm
+	is_shown = {
+		has_trait = cultivation_nascent_soul
+	}
+	is_valid = { prowess >= 30 }
+	effect = {
+		custom_tooltip = summon_heaven_severing_blade_decision_effect1
+		custom_tooltip = summon_heaven_severing_blade_decision_effect2
+		add_prestige = 50
+		add_stress = -800
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = heaven_severing_blade stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_nascent_soul
+	}
+	ai_will_do = { base = 100 }
+}
+
+summon_myriad_dao_suppression_domain_decision = {
+	decision_group_type = major
+	title = summon_myriad_dao_suppression_domain_decision
+	desc = summon_myriad_dao_suppression_domain_decision_desc
+	selection_tooltip = summon_myriad_dao_suppression_domain_decision_tooltip
+	confirm_text = summon_myriad_dao_suppression_domain_decision_confirm
+	is_shown = {
+		has_trait = cultivation_heavenly_being
+	}
+	is_valid = { prowess >= 35 }
+	effect = {
+		custom_tooltip = summon_myriad_dao_suppression_domain_decision_effect1
+		custom_tooltip = summon_myriad_dao_suppression_domain_decision_effect2
+		add_prestige = 50
+		add_stress = -1200
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = myriad_dao_suppression_domain stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_heavenly_being
+	}
+	ai_will_do = { base = 100 }
+}
+
+summon_heavenly_tribulation_descent_decision = {
+	decision_group_type = major
+	title = summon_heavenly_tribulation_descent_decision
+	desc = summon_heavenly_tribulation_descent_decision_desc
+	selection_tooltip = summon_heavenly_tribulation_descent_decision_tooltip
+	confirm_text = summon_heavenly_tribulation_descent_decision_confirm
+	is_shown = {
+		has_trait = cultivation_four_axis
+	}
+	is_valid = { prowess >= 40 }
+	effect = {
+		custom_tooltip = summon_heavenly_tribulation_descent_decision_effect1
+		custom_tooltip = summon_heavenly_tribulation_descent_decision_effect2
+		add_prestige = 50
+		add_stress = -2000
+		add_legitimacy = 50
+		if = {
+			limit = { exists = dynasty }
+			dynasty = { add_dynasty_prestige = 2 }
+		}
+		spawn_army = {
+			men_at_arms = { type = heavenly_tribulation_descent stacks = 1 }
+			inheritable = no
+			uses_supply = no
+			location = capital_province
+		}
+	}
+	cooldown = { days = 365 }
+	ai_check_interval = 60
+	ai_potential = {
+		has_trait = cultivation_four_axis
+	}
+	ai_will_do = { base = 100 }
+}

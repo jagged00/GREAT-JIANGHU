@@ -13,6 +13,11 @@ martial_artist_cultivator = {
         
     can_recruit = {
         cultivation_martial_arts_can_recruit_cultivator = yes
+        OR = {
+            cultivation_is_orthodox_path_character = yes
+            cultivation_is_unorthodox_path_character = yes
+            cultivation_is_vagrant_path_character = yes
+        }
     }
     
     terrain_bonus = {
@@ -55,6 +60,11 @@ martial_artist_army_1 = {
         
     can_recruit = {
         cultivation_martial_arts_can_recruit_martial_artist = yes
+        OR = {
+            cultivation_is_orthodox_path_character = yes
+            cultivation_is_unorthodox_path_character = yes
+            cultivation_is_vagrant_path_character = yes
+        }
     }
     
     terrain_bonus = {
@@ -110,6 +120,11 @@ martial_artist_army_2 = {
 			has_trait = cultivation_true_immortal
         }    
         cultivation_martial_arts_can_recruit_martial_artist = yes
+        OR = {
+            cultivation_is_orthodox_path_character = yes
+            cultivation_is_unorthodox_path_character = yes
+            cultivation_is_vagrant_path_character = yes
+        }
     }
     
     terrain_bonus = {
@@ -164,6 +179,11 @@ martial_artist_army_3 = {
 			has_trait = cultivation_true_immortal
         }    
         cultivation_martial_arts_can_recruit_martial_artist = yes
+        OR = {
+            cultivation_is_orthodox_path_character = yes
+            cultivation_is_unorthodox_path_character = yes
+            cultivation_is_vagrant_path_character = yes
+        }
     }
     
     terrain_bonus = {
@@ -208,6 +228,7 @@ zombie_army_1 = {
     
     can_recruit = {
         cultivation_martial_arts_can_recruit_zombie = yes
+        cultivation_is_demonic_path_character = yes
     }
     
     terrain_bonus = {
@@ -264,6 +285,7 @@ zombie_army_2 = {
 			has_trait = cultivation_true_immortal
         }    
         cultivation_martial_arts_can_recruit_zombie = yes
+        cultivation_is_demonic_path_character = yes
     }
     
     terrain_bonus = {
@@ -319,6 +341,7 @@ zombie_army_3 = {
 			has_trait = cultivation_true_immortal
         }    
         cultivation_martial_arts_can_recruit_zombie = yes
+        cultivation_is_demonic_path_character = yes
     }
     
     terrain_bonus = {
@@ -372,7 +395,8 @@ zombie_army_4 = {
 			has_trait = cultivation_entering_nirvana
 			has_trait = cultivation_true_immortal
         }
-        cultivation_martial_arts_can_recruit_zombie = yes    
+        cultivation_martial_arts_can_recruit_zombie = yes
+        cultivation_is_demonic_path_character = yes
     }    
     terrain_bonus = {
         farmlands = { damage = 8 toughness = 4 }
@@ -425,6 +449,7 @@ zombie_army_5 = {
 			has_trait = cultivation_true_immortal
         }
         cultivation_martial_arts_can_recruit_zombie = yes
+        cultivation_is_demonic_path_character = yes
     }
     
     terrain_bonus = {
@@ -478,6 +503,10 @@ immortal_army_1 = {
 			has_trait = cultivation_true_immortal
         }
         cultivation_martial_arts_can_recruit_immortal = yes
+        OR = {
+            cultivation_is_orthodox_path_character = yes
+            cultivation_is_unorthodox_path_character = yes
+        }
     }
     
     terrain_bonus = {
@@ -531,7 +560,11 @@ immortal_army_2 = {
 			has_trait = cultivation_entering_nirvana
 			has_trait = cultivation_true_immortal
         }
-        cultivation_martial_arts_can_recruit_immortal = yes    
+        cultivation_martial_arts_can_recruit_immortal = yes
+        OR = {
+            cultivation_is_orthodox_path_character = yes
+            cultivation_is_unorthodox_path_character = yes
+        }
     }
     
     terrain_bonus = {

@@ -1,0 +1,49 @@
+# Cultivation path traits used to gate path-specific Men-at-Arms.
+
+cultivation_path_orthodox = {
+	category = lifestyle
+	group = cultivation_path
+	level = 1
+	shown_in_ruler_designer = no
+	opposites = { cultivation_path_unorthodox cultivation_path_demonic cultivation_path_vagrant }
+
+	martial = 1
+	learning = 1
+	monthly_piety = 0.1
+}
+
+cultivation_path_unorthodox = {
+	category = lifestyle
+	group = cultivation_path
+	level = 1
+	shown_in_ruler_designer = no
+	opposites = { cultivation_path_orthodox cultivation_path_demonic cultivation_path_vagrant }
+
+	martial = 1
+	intrigue = 1
+	monthly_prestige = 0.1
+}
+
+cultivation_path_demonic = {
+	category = lifestyle
+	group = cultivation_path
+	level = 1
+	shown_in_ruler_designer = no
+	opposites = { cultivation_path_orthodox cultivation_path_unorthodox cultivation_path_vagrant }
+
+	prowess = 1
+	dread_gain_mult = 0.1
+	hostile_scheme_power_add = 5
+}
+
+cultivation_path_vagrant = {
+	category = lifestyle
+	group = cultivation_path
+	level = 1
+	shown_in_ruler_designer = no
+	opposites = { cultivation_path_orthodox cultivation_path_unorthodox cultivation_path_demonic }
+
+	martial = 1
+	stewardship = 1
+	monthly_prestige = 0.1
+}

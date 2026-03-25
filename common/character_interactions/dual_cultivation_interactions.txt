@@ -10,23 +10,17 @@
 
         scope:actor = {
             is_adult = yes
-            dynasty = { has_dynasty_perk = cultivation_legacy_3 }
-            # Must have at least one cultivation trait
-			OR = {    
-				has_trait = cultivation_mortal
-				has_trait = cultivation_qi_gathering
-				has_trait = cultivation_qi_refining
-				has_trait = cultivation_qi_building
-				has_trait = cultivation_core_formation
-				has_trait = cultivation_nascent_soul
-				has_trait = cultivation_heavenly_being
-				has_trait = cultivation_four_axis
-				has_trait = cultivation_integration
-				has_trait = cultivation_star_shattering
-				has_trait = cultivation_sacred_vessel
-				has_trait = cultivation_entering_nirvana
-				has_trait = cultivation_true_immortal
-			}
+            OR = {
+                dynasty = { has_dynasty_perk = cultivation_legacy_3 }
+                has_doctrine = tenet_divine_marriage
+                faith = faith:eternal_harmony_pavilion
+                faith = faith:jade_chamber_sect
+                faith = faith:eternal_pleasure_hall
+                faith = faith:feral_bond_sect
+                faith = faith:succubus_palace
+            }
+            # Actor must be a cultivator
+			is_cultivator = yes
 
             OR = {
                 scope:actor = {
@@ -49,8 +43,9 @@
             }
         }
 
-        scope:recipient = { 
+        scope:recipient = {
             is_adult = yes
+            is_cultivator = yes
             NOR = {
                 has_trait_with_flag = carn_block_receive_sex_interaction
                 has_character_flag = carn_block_receive_sex_interaction
@@ -115,12 +110,8 @@
             if = {
                 limit = {
                     # Same cultivation realm = bonus
-                    scope:actor = {
-                        has_trait = cultivation_mortal
-                    }
-                    scope:recipient = {
-                        has_trait = cultivation_mortal
-                    }
+                    scope:actor = { has_trait = cultivation_qi_gathering }
+                    scope:recipient = { has_trait = cultivation_qi_gathering }
                 }
                 add_character_modifier = {
                     modifier = dual_cultivation_boost
@@ -139,26 +130,37 @@
                 limit = {
                     scope:actor = {
                         OR = {
-                            has_trait = cultivation_mortal
-                            has_trait = unrestrained_realm
-                            has_trait = immortal_realm
+                            has_trait = cultivation_core_formation
+                            has_trait = cultivation_nascent_soul
+                            has_trait = cultivation_heavenly_being
+                            has_trait = cultivation_four_axis
+                            has_trait = cultivation_integration
+                            has_trait = cultivation_star_shattering
+                            has_trait = cultivation_sacred_vessel
+                            has_trait = cultivation_entering_nirvana
+                            has_trait = cultivation_true_immortal
                         }
                     }
                     scope:recipient = {
                         OR = {
-                            has_trait = cultivation_mortal
-                            has_trait = core_formation
+                            has_trait = cultivation_qi_gathering
+                            has_trait = cultivation_qi_refining
+                            has_trait = cultivation_qi_building
                         }
                     }
                 }
                 scope:recipient = {
                     # Double XP gain for lower realm partner
                     if = {
-                        limit = { has_trait = cultivation_mortal }
+                        limit = { has_trait = cultivation_qi_gathering }
                         add_cultivation_lifestyle_xp = medium_lifestyle_xp
                     }
                     else_if = {
-                        limit = { has_trait = cultivation_mortal }
+                        limit = { has_trait = cultivation_qi_refining }
+                        add_cultivation_lifestyle_xp = medium_lifestyle_xp
+                    }
+                    else_if = {
+                        limit = { has_trait = cultivation_qi_building }
                         add_cultivation_lifestyle_xp = medium_lifestyle_xp
                     }
                 }

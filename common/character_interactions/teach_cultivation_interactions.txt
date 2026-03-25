@@ -1,0 +1,71 @@
+teach_cultivation_interaction = {
+	category = interaction_category_friendly
+	interface_priority = 100
+	icon = icon_combat
+
+	desc = teach_cultivation_interaction_desc
+	use_diplomatic_range = no
+
+	ai_frequency = 200
+	ai_targets = {
+		ai_recipients = courtiers
+		ai_recipients = children
+		ai_recipients = siblings
+		ai_recipients = parents
+	}
+
+	is_shown = {
+		NOT = { scope:actor = scope:recipient }
+		scope:actor = {
+			is_alive = yes
+			is_cultivator = yes
+		}
+		scope:recipient = {
+			is_alive = yes
+			is_courtier_of = scope:actor
+			is_mortal = yes
+		}
+	}
+
+	is_valid = {
+		scope:recipient = {
+			is_courtier_of = scope:actor
+			is_mortal = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 50
+		modifier = {
+			factor = 1000
+			scope:recipient = {
+				is_close_family_of = scope:actor
+				is_courtier_of = scope:actor
+				is_mortal = yes
+			}
+		}
+		modifier = {
+			factor = 300
+			scope:recipient = {
+				is_extended_family_of = scope:actor
+				is_courtier_of = scope:actor
+				is_mortal = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			scope:recipient = { is_cultivator = yes }
+		}
+	}
+
+	auto_accept = yes
+
+	on_accept = {
+		scope:recipient = {
+			add_trait = cultivation_qi_gathering
+		}
+		scope:actor = {
+			add_piety = 15
+		}
+	}
+}

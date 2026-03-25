@@ -1,0 +1,38 @@
+# Path trait helper triggers.
+
+cultivation_has_any_path_trait = {
+	OR = {
+		has_trait = cultivation_path_orthodox
+		has_trait = cultivation_path_unorthodox
+		has_trait = cultivation_path_demonic
+		has_trait = cultivation_path_vagrant
+	}
+}
+
+cultivation_is_orthodox_path_character = {
+	OR = {
+		has_doctrine = tenet_orthodox_cultivation
+		has_trait = cultivation_path_orthodox
+	}
+}
+
+cultivation_is_unorthodox_path_character = {
+	OR = {
+		has_doctrine = tenet_unorthodox_cultivation
+		has_trait = cultivation_path_unorthodox
+	}
+}
+
+cultivation_is_demonic_path_character = {
+	OR = {
+		has_doctrine = tenet_demonic_cultivation
+		has_trait = cultivation_path_demonic
+	}
+}
+
+cultivation_is_vagrant_path_character = {
+	OR = {
+		has_doctrine = tenet_vagrant_cultivation
+		has_trait = cultivation_path_vagrant
+	}
+}

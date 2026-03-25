@@ -1,0 +1,72 @@
+﻿l_russian:
+ cultivation_path_orthodox:0 "Ортодоксальный путь"
+ cultivation_path_orthodox_desc:0 "Этот культиватор следует праведной и дисциплинированной ортодоксальной линии культивации."
+ cultivation_path_unorthodox:0 "Неортодоксальный путь"
+ cultivation_path_unorthodox_desc:0 "Этот культиватор идёт неортодоксальной дорогой, полагаясь на хитрость и нетрадиционные техники."
+ cultivation_path_demonic:0 "Демонический путь"
+ cultivation_path_demonic_desc:0 "Этот культиватор принимает безжалостные демонические методы, где сила выковывается кровью, страхом и запретными искусствами."
+ cultivation_path_vagrant:0 "Путь странника"
+ cultivation_path_vagrant_desc:0 "Этот культиватор следует странствующему пути, не связанный стенами секты и закалённый цзянху."
+
+ choose_orthodox_cultivation_path_decision:0 "Принять ортодоксальный путь"
+ choose_orthodox_cultivation_path_decision_desc:0 "Настройте своё дао-сердце на ортодоксальные учения и унаследуйте боевые традиции праведных сект."
+ choose_orthodox_cultivation_path_decision_tooltip:0 "Получить черту [GetTrait('cultivation_path_orthodox').GetName( GetNullCharacter )]."
+ choose_orthodox_cultivation_path_decision_confirm:0 "Моё сердце следует праведности"
+
+ choose_unorthodox_cultivation_path_decision:0 "Принять неортодоксальный путь"
+ choose_unorthodox_cultivation_path_decision_desc:0 "Откажитесь от жёсткой ортодоксии и идите опасной, изобретательной дорогой неортодоксальной культивации."
+ choose_unorthodox_cultivation_path_decision_tooltip:0 "Получить черту [GetTrait('cultivation_path_unorthodox').GetName( GetNullCharacter )]."
+ choose_unorthodox_cultivation_path_decision_confirm:0 "Я иду своим путём"
+
+ choose_demonic_cultivation_path_decision:0 "Принять демонический путь"
+ choose_demonic_cultivation_path_decision_desc:0 "Примите демонический путь, где выживает лишь сильный, а колебание смертельно."
+ choose_demonic_cultivation_path_decision_tooltip:0 "Получить черту [GetTrait('cultivation_path_demonic').GetName( GetNullCharacter )]."
+ choose_demonic_cultivation_path_decision_confirm:0 "Пусть небеса судят меня, если осмелятся"
+
+ choose_vagrant_cultivation_path_decision:0 "Принять путь странника"
+ choose_vagrant_cultivation_path_decision_desc:0 "Не клянитесь в вечной верности и культивируйте под открытым небом как странник цзянху."
+ choose_vagrant_cultivation_path_decision_tooltip:0 "Получить черту [GetTrait('cultivation_path_vagrant').GetName( GetNullCharacter )]."
+ choose_vagrant_cultivation_path_decision_confirm:0 "Весь мир — моя секта"
+
+ cultivation_path_orthodox_modifier:0 "Следование ортодоксальному пути"
+ cultivation_path_orthodox_modifier_desc:0 "Этот персонаж настроен на ортодоксальные принципы культивации и методы праведных сект."
+ cultivation_path_unorthodox_modifier:0 "Следование неортодоксальному пути"
+ cultivation_path_unorthodox_modifier_desc:0 "Этот персонаж настроен на неортодоксальные принципы культивации и нестандартные методы."
+ cultivation_path_demonic_modifier:0 "Следование демоническому пути"
+ cultivation_path_demonic_modifier_desc:0 "Этот персонаж настроен на демонические принципы культивации и безжалостные боевые техники."
+ cultivation_path_vagrant_modifier:0 "Следование пути странника"
+ cultivation_path_vagrant_modifier_desc:0 "Этот персонаж настроен на принципы странствующей культивации и гибкие традиции цзянху."
+
+ claim_heavenly_mandate_vassal_title:0 "Утвердить небесное превосходство"
+ claim_heavenly_mandate_vassal_desc:0 "Ваша культивация превзошла вашего сюзерена. По Мандату Небес его трон по праву должен принадлежать вам."
+ claim_heavenly_mandate_vassal_confirm:0 "Его корона принадлежит мне."
+ claim_heavenly_mandate_vassal_tooltip:0 "Получить черту Завоеватель и обеспеченное требование на основной титул сюзерена."
+
+ claim_heavenly_mandate_independent_title:0 "Провозгласить Небесный Мандат"
+ claim_heavenly_mandate_independent_desc:0 "Ни один смертный правитель не стоит выше вас. Небесный Мандат исполняется в вашем имени."
+ claim_heavenly_mandate_independent_confirm:0 "Я и есть Мандат."
+ claim_heavenly_mandate_independent_tooltip:0 "Получить черту Завоеватель."
+
+ claim_superior_realm_liege_title:0 "Претендовать на титул сюзерена по превосходству сферы"
+ claim_superior_realm_liege_desc:0 "Ваша сфера культивации затмевает сферу сюзерена. По законам дао более слабый должен уступить трон более сильному."
+ claim_superior_realm_liege_confirm:0 "Его владение — моё по праву!"
+ claim_superior_realm_liege_tooltip:0 "Получить обеспеченное требование на основной титул сюзерена, если ваша сфера выше."
+
+ grant_qi_gathering_to_meridian_holders_decision:0 "Пробудить Ци по всему владению"
+ grant_qi_gathering_to_meridian_holders_decision_desc:0 "Небесным указом просветления вы можете открыть первую ступень культивации для смертных под вашей властью."
+ grant_qi_gathering_to_meridian_holders_decision_confirm:0 "Пусть Ци течёт через достойных!"
+ qi_gathering_granted_tooltip:0 "Смертные в вашем дворе, среди вассалов и во всём владении получают [GetTrait('cultivation_qi_gathering').GetName(GetNullCharacter)]."
+
+ purify_mortal_shell_decision:0 "Очистить смертную оболочку"
+ purify_mortal_shell_decision_desc:0 "Смертная плоть — лишь временный сосуд. Очистите её истинной Ци и изгоните болезни, раны и смертные изъяны."
+ purify_mortal_shell_decision_confirm:0 "Закалить тело и душу воедино."
+ purify_mortal_shell_decision_tooltip:0 "Удаляет болезни, раны, увечья и тяжёлые смертные недостатки. Перезарядка: 2 года."
+
+ teach_cultivation_to_court_decision:0 "Обучать двор культивации"
+ teach_cultivation_to_court_decision_desc:0 "Соберите двор и наставьте их в контроле дыхания, циркуляции меридианов и первых шагах сбора Ци."
+ teach_cultivation_to_court_decision_confirm:0 "Откройте меридианы и слушайте."
+ teach_cultivation_to_court_decision_tooltip:0 "Все смертные придворные получают [GetTrait('cultivation_qi_gathering').GetName(GetNullCharacter)]."
+ teach_cultivation_to_court_decision_effect_tooltip:0 "Ваши наставления пробуждают потенциал культивации среди придворных."
+
+ teach_cultivation_interaction:0 "Обучать культивации"
+ teach_cultivation_interaction_desc:0 "Проведите [recipient.GetShortUINameNoTooltip] через контроль дыхания и циркуляцию меридианов, пробуждая первый шаг на пути Дао."

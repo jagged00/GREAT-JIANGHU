@@ -1,0 +1,42 @@
+# Auto-assign cultivation path traits/modifiers based on path tenets.
+
+on_game_start_after_lobby = {
+	effect = {
+		every_living_character = {
+			limit = {
+				is_alive = yes
+				OR = {
+					has_doctrine = tenet_orthodox_cultivation
+					has_doctrine = tenet_unorthodox_cultivation
+					has_doctrine = tenet_demonic_cultivation
+					has_doctrine = tenet_vagrant_cultivation
+					cultivation_has_any_path_trait = yes
+				}
+			}
+			cultivation_assign_path_trait_from_faith_effect = yes
+		}
+	}
+}
+
+on_birthday = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					has_doctrine = tenet_orthodox_cultivation
+					has_doctrine = tenet_unorthodox_cultivation
+					has_doctrine = tenet_demonic_cultivation
+					has_doctrine = tenet_vagrant_cultivation
+					cultivation_has_any_path_trait = yes
+				}
+			}
+			cultivation_assign_path_trait_from_faith_effect = yes
+		}
+	}
+}
+
+on_character_convert_faith = {
+	effect = {
+		cultivation_assign_path_trait_from_faith_effect = yes
+	}
+}

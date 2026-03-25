@@ -30,10 +30,10 @@ attempt_qi_gathering_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1000
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -65,10 +65,10 @@ attempt_qi_refining_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1100
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -100,10 +100,10 @@ attempt_qi_building_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1200
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -135,10 +135,10 @@ attempt_core_formation_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1300
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -170,10 +170,10 @@ attempt_nascent_soul_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1400
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -205,10 +205,10 @@ attempt_heavenly_being_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1500
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -240,10 +240,10 @@ attempt_four_axis_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1600
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -275,10 +275,10 @@ attempt_integration_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1700
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -310,10 +310,10 @@ attempt_star_shattering_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1800
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -345,10 +345,10 @@ attempt_sacred_vessel_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.1900
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 
@@ -380,10 +380,10 @@ attempt_entering_nirvana_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.2000
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }
 # True Immortal Breakthrough
@@ -414,9 +414,9 @@ attempt_true_immortal_breakthrough_decision = {
 		trigger_event = cultivation_breakthrough.2100
 	}
 	
-	ai_check_interval = 60
+	ai_check_interval = 20
 	ai_potential = { always = yes }
 	ai_will_do = {
-		base = 100
+		base = 400
 	}
 }

@@ -1,0 +1,38 @@
+﻿l_english:
+ cultivation_path_orthodox:0 "Orthodox Path"
+ cultivation_path_orthodox_desc:0 "This cultivator follows the righteous and disciplined orthodox lineage of cultivation."
+ cultivation_path_unorthodox:0 "Unorthodox Path"
+ cultivation_path_unorthodox_desc:0 "This cultivator walks an unorthodox road, relying on cunning methods and unconventional techniques."
+ cultivation_path_demonic:0 "Demonic Path"
+ cultivation_path_demonic_desc:0 "This cultivator embraces ruthless demonic methods, where strength is carved from blood, fear, and taboo arts."
+ cultivation_path_vagrant:0 "Vagrant Path"
+ cultivation_path_vagrant_desc:0 "This cultivator follows the wandering path, unbound by sect walls and tempered by the jianghu."
+
+ choose_orthodox_cultivation_path_decision:0 "Pledge to the Orthodox Path"
+ choose_orthodox_cultivation_path_decision_desc:0 "Align your dao-heart with orthodox teachings and claim the martial traditions of righteous sects."
+ choose_orthodox_cultivation_path_decision_tooltip:0 "Gain the [GetTrait('cultivation_path_orthodox').GetName( GetNullCharacter )] trait."
+ choose_orthodox_cultivation_path_decision_confirm:0 "My heart follows righteousness"
+
+ choose_unorthodox_cultivation_path_decision:0 "Pledge to the Unorthodox Path"
+ choose_unorthodox_cultivation_path_decision_desc:0 "Cast aside rigid orthodoxy and walk the perilous, inventive road of unorthodox cultivation."
+ choose_unorthodox_cultivation_path_decision_tooltip:0 "Gain the [GetTrait('cultivation_path_unorthodox').GetName( GetNullCharacter )] trait."
+ choose_unorthodox_cultivation_path_decision_confirm:0 "I walk my own road"
+
+ choose_demonic_cultivation_path_decision:0 "Pledge to the Demonic Path"
+ choose_demonic_cultivation_path_decision_desc:0 "Accept the demonic way, where only the strong endure and hesitation is a fatal flaw."
+ choose_demonic_cultivation_path_decision_tooltip:0 "Gain the [GetTrait('cultivation_path_demonic').GetName( GetNullCharacter )] trait."
+ choose_demonic_cultivation_path_decision_confirm:0 "Let heaven judge me if it dares"
+
+ choose_vagrant_cultivation_path_decision:0 "Pledge to the Vagrant Path"
+ choose_vagrant_cultivation_path_decision_desc:0 "Swear no permanent allegiance, and cultivate beneath open skies as a wanderer of the jianghu."
+ choose_vagrant_cultivation_path_decision_tooltip:0 "Gain the [GetTrait('cultivation_path_vagrant').GetName( GetNullCharacter )] trait."
+ choose_vagrant_cultivation_path_decision_confirm:0 "The world itself is my sect"
+
+ cultivation_path_orthodox_modifier:0 "Orthodox Path Alignment"
+ cultivation_path_orthodox_modifier_desc:0 "This character is attuned to orthodox cultivation principles and righteous sect methods."
+ cultivation_path_unorthodox_modifier:0 "Unorthodox Path Alignment"
+ cultivation_path_unorthodox_modifier_desc:0 "This character is attuned to unorthodox cultivation principles and irregular methods."
+ cultivation_path_demonic_modifier:0 "Demonic Path Alignment"
+ cultivation_path_demonic_modifier_desc:0 "This character is attuned to demonic cultivation principles and ruthless battlefield techniques."
+ cultivation_path_vagrant_modifier:0 "Vagrant Path Alignment"
+ cultivation_path_vagrant_modifier_desc:0 "This character is attuned to vagrant cultivation principles and adaptable jianghu traditions."

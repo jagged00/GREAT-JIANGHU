@@ -1,0 +1,13 @@
+﻿# Game-start upheaval: selected sect cultivators reveal themselves as conquerors.
+
+on_game_start_after_lobby = {
+	events = {
+		cultivation_reveal.0001
+	}
+}
+
+on_yearly_global_pulse = {
+	events = {
+		cultivation_reveal.0001
+	}
+}

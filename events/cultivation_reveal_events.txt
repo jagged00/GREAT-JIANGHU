@@ -1,0 +1,78 @@
+﻿# Cultivation reveal events: sect cultivators reveal themselves and destabilize mortal politics.
+
+namespace = cultivation_reveal
+
+cultivation_reveal.0001 = {
+	type = character_event
+	hidden = yes
+
+	trigger = {
+		any_landed_character = {
+			is_independent_ruler = yes
+			is_mortal = yes
+			OR = {
+				highest_held_title = { tier = tier_county }
+				highest_held_title = { tier = tier_duchy }
+				highest_held_title = { tier = tier_kingdom }
+				highest_held_title = { tier = tier_empire }
+			}
+		}
+	}
+
+	immediate = {
+		# For every cultivation sect faith, awaken one conqueror repeatedly until mortals are gone.
+		every_faith = {
+			limit = {
+				OR = {
+					has_doctrine = tenet_orthodox_cultivation
+					has_doctrine = tenet_unorthodox_cultivation
+					has_doctrine = tenet_demonic_cultivation
+					has_doctrine = tenet_vagrant_cultivation
+				}
+			}
+
+			random_landed_character = {
+				limit = {
+					is_adult = yes
+					is_ai = yes
+					is_alive = yes
+					faith = prev
+					NOT = { has_character_flag = cultivation_reveal_conqueror }
+				}
+				save_scope_as = sect_conqueror
+			}
+
+			if = {
+				limit = { exists = scope:sect_conqueror }
+				scope:sect_conqueror = {
+					add_trait = cultivation_nascent_soul
+					add_trait = conqueror
+					add_character_flag = cultivation_reveal_conqueror
+
+					random_landed_character = {
+						limit = {
+							is_adult = yes
+							is_alive = yes
+							is_independent_ruler = yes
+							is_mortal = yes
+							OR = {
+								highest_held_title = { tier = tier_county }
+								highest_held_title = { tier = tier_duchy }
+								highest_held_title = { tier = tier_kingdom }
+								highest_held_title = { tier = tier_empire }
+							}
+							NOT = { this = scope:sect_conqueror }
+							NOT = { top_liege = scope:sect_conqueror.top_liege }
+						}
+						save_scope_as = sect_target
+					}
+
+					if = {
+						limit = { exists = scope:sect_target }
+						add_pressed_claim = scope:sect_target.primary_title
+					}
+				}
+			}
+		}
+	}
+}

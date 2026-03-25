@@ -1,0 +1,71 @@
+﻿# Meridian aptitude traits adapted for current cultivation progression.
+
+poor_meridians = {
+	opposites = { normal_meridians good_meridians excellent_meridians heavenly_meridians }
+	birth = 80
+	random_creation = 80
+	ruler_designer_cost = -60
+	inherit_chance = 90
+	both_parent_has_trait_inherit_chance = 98
+	monthly_lifestyle_xp_gain_mult = -0.10
+	learning = -1
+	attraction_opinion = -5
+	physical = yes
+	good = no
+}
+
+normal_meridians = {
+	opposites = { poor_meridians good_meridians excellent_meridians heavenly_meridians }
+	birth = 15
+	random_creation = 15
+	ruler_designer_cost = 0
+	inherit_chance = 70
+	both_parent_has_trait_inherit_chance = 90
+	monthly_lifestyle_xp_gain_mult = 0.05
+	physical = yes
+	good = yes
+}
+
+good_meridians = {
+	opposites = { poor_meridians normal_meridians excellent_meridians heavenly_meridians }
+	birth = 4
+	random_creation = 3
+	ruler_designer_cost = 120
+	inherit_chance = 45
+	both_parent_has_trait_inherit_chance = 75
+	learning = 1
+	monthly_lifestyle_xp_gain_mult = 0.15
+	attraction_opinion = 5
+	physical = yes
+	good = yes
+}
+
+excellent_meridians = {
+	opposites = { poor_meridians normal_meridians good_meridians heavenly_meridians }
+	birth = 0.9
+	random_creation = 0.7
+	ruler_designer_cost = 350
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 60
+	learning = 3
+	monthly_lifestyle_xp_gain_mult = 0.30
+	attraction_opinion = 15
+	physical = yes
+	good = yes
+}
+
+heavenly_meridians = {
+	opposites = { poor_meridians normal_meridians good_meridians excellent_meridians }
+	birth = 0.1
+	random_creation = 0.05
+	ruler_designer_cost = 900
+	inherit_chance = 10
+	both_parent_has_trait_inherit_chance = 35
+	learning = 6
+	prowess = 4
+	monthly_lifestyle_xp_gain_mult = 0.50
+	attraction_opinion = 30
+	dread_baseline_add = 10
+	physical = yes
+	good = yes
+}

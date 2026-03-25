@@ -1,129 +1,66 @@
 ﻿dual_cultivation_effect = {
+	# Faster base gain from dual cultivation
+	if = {
+		limit = { is_cultivator = yes }
+		add_cultivation_lifestyle_xp = major_lifestyle_xp
+		send_interface_toast = {
+			title = trait_1_xp_tt
+			desc = trait_1_xp_desc
+		}
+	}
 
-    ############################################
-    # SAFETY — partner scope yoksa ROOT yap
-    ############################################
-#    if = {
-#        limit = { NOT = { exists = scope:carn_sex_partner_scope } }
-#        save_scope_as = carn_sex_partner_scope
-#    }
+	# Meridian progression further accelerates lifestyle gain
+	if = {
+		limit = { has_perk = qi_gathering_meridian_1_perk }
+		add_cultivation_lifestyle_xp = minor_lifestyle_xp
+	}
+	if = {
+		limit = { has_perk = qi_gathering_meridian_2_perk }
+		add_cultivation_lifestyle_xp = minor_lifestyle_xp
+	}
+	if = {
+		limit = {
+			OR = {
+				has_perk = qi_gathering_meridian_3a_perk
+				has_perk = qi_gathering_meridian_3b_perk
+			}
+		}
+		add_cultivation_lifestyle_xp = medium_lifestyle_xp
+	}
+	if = {
+		limit = { has_perk = qi_gathering_meridian_4_perk }
+		add_cultivation_lifestyle_xp = medium_lifestyle_xp
+	}
 
-    ############################################
-    # ROOT XP
-    ############################################
-
-    if = {
-        limit = {
-            has_trait = cultivation_mortal
-        }
-        add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        send_interface_toast = {
-            title = trait_1_xp_tt
-            desc = trait_1_xp_desc
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = core_formation
-            NOT = { has_trait_xp = { trait = core_formation value >= 100 } }
-        }
-        add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        send_interface_toast = {
-            title = trait_2_xp_tt
-            desc = trait_2_xp_desc
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = golden_core
-            NOT = { has_trait_xp = { trait = golden_core value >= 100 } }
-        }
-        add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        send_interface_toast = {
-            title = trait_3_xp_tt
-            desc = trait_3_xp_desc
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = peak_realm
-            NOT = { has_trait_xp = { trait = peak_realm value >= 100 } }
-        }
-        add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        send_interface_toast = {
-            title = trait_4_xp_tt
-            desc = trait_4_xp_desc
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = unrestrained_realm
-            NOT = { has_trait_xp = { trait = unrestrained_realm value >= 100 } }
-        }
-        add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        send_interface_toast = {
-            title = trait_5_xp_tt
-            desc = trait_5_xp_desc
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = immortal_realm
-            NOT = { has_trait_xp = { trait = immortal_realm value >= 100 } }
-        }
-        add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        send_interface_toast = {
-            title = trait_6_xp_tt
-            desc = trait_6_xp_desc
-        }
-    }
-
-    ############################################
-    # PARTNER XP
-    ############################################
-
-    scope:carn_sex_partner_scope = {
-
-        if = {
-            limit = {
-                has_trait = cultivation_mortal
-            }
-            add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        }
-        else_if = {
-            limit = {
-                has_trait = core_formation
-                NOT = { has_trait_xp = { trait = core_formation value >= 100 } }
-            }
-            add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        }
-        else_if = {
-            limit = {
-                has_trait = golden_core
-                NOT = { has_trait_xp = { trait = golden_core value >= 100 } }
-            }
-            add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        }
-        else_if = {
-            limit = {
-                has_trait = peak_realm
-                NOT = { has_trait_xp = { trait = peak_realm value >= 100 } }
-            }
-            add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        }
-        else_if = {
-            limit = {
-                has_trait = unrestrained_realm
-                NOT = { has_trait_xp = { trait = unrestrained_realm value >= 100 } }
-            }
-            add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        }
-        else_if = {
-            limit = {
-                has_trait = immortal_realm
-                NOT = { has_trait_xp = { trait = immortal_realm value >= 100 } }
-            }
-            add_cultivation_lifestyle_xp = medium_lifestyle_xp
-        }
-    }
+	# Partner also receives accelerated gains
+	if = {
+		limit = { exists = scope:carn_sex_partner_scope }
+		scope:carn_sex_partner_scope = {
+			if = {
+				limit = { is_cultivator = yes }
+				add_cultivation_lifestyle_xp = major_lifestyle_xp
+			}
+			if = {
+				limit = { has_perk = qi_gathering_meridian_1_perk }
+				add_cultivation_lifestyle_xp = minor_lifestyle_xp
+			}
+			if = {
+				limit = { has_perk = qi_gathering_meridian_2_perk }
+				add_cultivation_lifestyle_xp = minor_lifestyle_xp
+			}
+			if = {
+				limit = {
+					OR = {
+						has_perk = qi_gathering_meridian_3a_perk
+						has_perk = qi_gathering_meridian_3b_perk
+					}
+				}
+				add_cultivation_lifestyle_xp = medium_lifestyle_xp
+			}
+			if = {
+				limit = { has_perk = qi_gathering_meridian_4_perk }
+				add_cultivation_lifestyle_xp = medium_lifestyle_xp
+			}
+		}
+	}
 }

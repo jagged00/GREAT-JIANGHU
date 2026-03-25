@@ -1,0 +1,193 @@
+﻿# Meridian cultivation pulse: characters with opened meridians continuously cultivate.
+
+on_birthday = {
+	effect = {
+		# AI with strong meridians should enter cultivation sects and begin cultivating.
+		if = {
+			limit = {
+				is_ai = yes
+				is_adult = yes
+				is_mortal = yes
+				OR = {
+					has_trait = good_meridians
+					has_trait = excellent_meridians
+					has_trait = heavenly_meridians
+				}
+				NOT = {
+					OR = {
+						has_doctrine = tenet_orthodox_cultivation
+						has_doctrine = tenet_unorthodox_cultivation
+						has_doctrine = tenet_demonic_cultivation
+						has_doctrine = tenet_vagrant_cultivation
+					}
+				}
+			}
+			random = {
+				chance = 25
+				# Most of the time, follow parent sect lineage with a small variance.
+				if = {
+					limit = {
+						random = { chance = 80 }
+						OR = {
+							mother = { faith = faith:mount_hua_sect }
+							father = { faith = faith:mount_hua_sect }
+						}
+					}
+					set_character_faith = faith:mount_hua_sect
+				}
+				else_if = {
+					limit = {
+						random = { chance = 80 }
+						OR = {
+							mother = { faith = faith:jade_chamber_sect }
+							father = { faith = faith:jade_chamber_sect }
+						}
+					}
+					set_character_faith = faith:jade_chamber_sect
+				}
+				else_if = {
+					limit = {
+						random = { chance = 80 }
+						OR = {
+							mother = { faith = faith:succubus_palace }
+							father = { faith = faith:succubus_palace }
+						}
+					}
+					set_character_faith = faith:succubus_palace
+				}
+				else_if = {
+					limit = {
+						random = { chance = 80 }
+						OR = {
+							mother = { faith = faith:lone_wolf_wanderers }
+							father = { faith = faith:lone_wolf_wanderers }
+						}
+					}
+					set_character_faith = faith:lone_wolf_wanderers
+				}
+				# Personality fallback inspired by common xianxia sect archetypes.
+				else_if = {
+					limit = {
+						OR = {
+							has_trait = sadistic
+							has_trait = callous
+							has_trait = wrathful
+						}
+					}
+					random_list = {
+						60 = { set_character_faith = faith:succubus_palace }
+						40 = { set_character_faith = faith:blood_moon_demonic_sect }
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							has_trait = just
+							has_trait = honest
+							has_trait = compassionate
+							has_trait = patient
+						}
+					}
+					random_list = {
+						55 = { set_character_faith = faith:mount_hua_sect }
+						45 = { set_character_faith = faith:wudang_sect }
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							has_trait = lustful
+							has_trait = deceitful
+							has_trait = ambitious
+							has_trait = arbitrary
+						}
+					}
+					random_list = {
+						55 = { set_character_faith = faith:jade_chamber_sect }
+						45 = { set_character_faith = faith:eternal_pleasure_hall }
+					}
+				}
+				else_if = {
+					limit = {
+						OR = {
+							has_trait = brave
+							has_trait = stubborn
+							has_trait = vengeful
+						}
+					}
+					set_character_faith = faith:lone_wolf_wanderers
+				}
+				else = {
+					random_list = {
+						30 = { set_character_faith = faith:mount_hua_sect }
+						30 = { set_character_faith = faith:jade_chamber_sect }
+						20 = { set_character_faith = faith:succubus_palace }
+						20 = { set_character_faith = faith:lone_wolf_wanderers }
+					}
+				}
+
+				add_trait = cultivation_qi_gathering
+			}
+		}
+
+		if = {
+			limit = {
+				is_adult = yes
+				is_cultivator = yes
+				OR = {
+					has_trait = normal_meridians
+					has_trait = good_meridians
+					has_trait = excellent_meridians
+					has_trait = heavenly_meridians
+					has_perk = qi_gathering_meridian_1_perk
+					has_perk = qi_gathering_meridian_2_perk
+					has_perk = qi_gathering_meridian_3a_perk
+					has_perk = qi_gathering_meridian_3b_perk
+					has_perk = qi_gathering_meridian_4_perk
+				}
+			}
+
+			# Passive yearly cultivation from meridian progression
+			add_cultivation_lifestyle_xp = minor_lifestyle_xp
+
+			if = {
+				limit = { has_trait = poor_meridians }
+				add_cultivation_lifestyle_xp = minor_lifestyle_xp
+			}
+			if = {
+				limit = { has_trait = normal_meridians }
+				add_cultivation_lifestyle_xp = minor_lifestyle_xp
+			}
+			if = {
+				limit = { has_trait = good_meridians }
+				add_cultivation_lifestyle_xp = medium_lifestyle_xp
+			}
+			if = {
+				limit = { has_trait = excellent_meridians }
+				add_cultivation_lifestyle_xp = medium_lifestyle_xp
+			}
+			if = {
+				limit = { has_trait = heavenly_meridians }
+				add_cultivation_lifestyle_xp = major_lifestyle_xp
+			}
+
+			if = {
+				limit = { has_perk = qi_gathering_meridian_2_perk }
+				add_cultivation_lifestyle_xp = minor_lifestyle_xp
+			}
+			if = {
+				limit = {
+					OR = {
+						has_perk = qi_gathering_meridian_3a_perk
+						has_perk = qi_gathering_meridian_3b_perk
+					}
+				}
+				add_cultivation_lifestyle_xp = medium_lifestyle_xp
+			}
+			if = {
+				limit = { has_perk = qi_gathering_meridian_4_perk }
+				add_cultivation_lifestyle_xp = medium_lifestyle_xp
+			}
+		}
+	}
+}

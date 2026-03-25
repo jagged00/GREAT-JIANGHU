@@ -105,7 +105,19 @@
             
             # Apply dual cultivation effects
             dual_cultivation_effect = yes
-            
+
+            # Always apply the dual-cultivation harmony modifier
+            add_character_modifier = {
+                modifier = dual_cultivation_boost
+                months = 6
+            }
+            scope:recipient = {
+                add_character_modifier = {
+                    modifier = dual_cultivation_boost
+                    months = 6
+                }
+            }
+
             # Additional benefits based on realm compatibility
             if = {
                 limit = {

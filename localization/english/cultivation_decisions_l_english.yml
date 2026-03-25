@@ -1,0 +1,32 @@
+l_english:
+  claim_heavenly_mandate_vassal_title:0 "Assert Heavenly Supremacy"
+  claim_heavenly_mandate_vassal_desc:0 "Your cultivation has surpassed your liege. By the Mandate of Heaven, their throne should be yours by right."
+  claim_heavenly_mandate_vassal_confirm:0 "Their crown belongs to me."
+  claim_heavenly_mandate_vassal_tooltip:0 "Gain the Conqueror trait and a pressed claim on your liege's primary title."
+
+  claim_heavenly_mandate_independent_title:0 "Proclaim the Heavenly Mandate"
+  claim_heavenly_mandate_independent_desc:0 "No mortal ruler stands above you. The Mandate of Heaven is fulfilled in your name."
+  claim_heavenly_mandate_independent_confirm:0 "I am the Mandate."
+  claim_heavenly_mandate_independent_tooltip:0 "Gain the Conqueror trait."
+
+  claim_superior_realm_liege_title:0 "Claim Liege Title by Superior Realm"
+  claim_superior_realm_liege_desc:0 "Your cultivation realm eclipses your liege's. By dao-law, the weaker must yield the throne to the stronger."
+  claim_superior_realm_liege_confirm:0 "Their realm is mine by right!"
+  claim_superior_realm_liege_tooltip:0 "Gain a pressed claim on your liege's primary title if your realm is superior."
+
+  grant_qi_gathering_to_meridian_holders_decision:0 "Awaken Qi Across the Realm"
+  grant_qi_gathering_to_meridian_holders_decision_desc:0 "With a decree of heavenly insight, you may open the first gate of cultivation for mortals under your banner."
+  grant_qi_gathering_to_meridian_holders_decision_confirm:0 "Let qi flow through all who are worthy!"
+  qi_gathering_granted_tooltip:0 "Mortals in your court, among your vassals, and across your realm gain [GetTrait('cultivation_qi_gathering').GetName(GetNullCharacter)]."
+
+  purify_mortal_shell_decision:0 "Purify the Mortal Shell"
+  purify_mortal_shell_decision_desc:0 "This mortal flesh is a temporary vessel. Refine it with true qi and cast out disease, wounds, and mortal flaws."
+  purify_mortal_shell_decision_confirm:0 "Refine body and soul as one."
+  purify_mortal_shell_decision_tooltip:0 "Removes diseases, wounds, deformities, and severe mortal defects. 2-year cooldown."
+
+
+  teach_cultivation_to_court_decision:0 "Teach Cultivation to the Court"
+  teach_cultivation_to_court_decision_desc:0 "Gather your court and instruct them in breath regulation, meridian circulation, and the first gate of qi gathering."
+  teach_cultivation_to_court_decision_confirm:0 "Open your meridians and listen."
+  teach_cultivation_to_court_decision_tooltip:0 "All mortal courtiers gain [GetTrait('cultivation_qi_gathering').GetName(GetNullCharacter)]."
+  teach_cultivation_to_court_decision_effect_tooltip:0 "Your teachings awaken cultivation potential among your courtiers."

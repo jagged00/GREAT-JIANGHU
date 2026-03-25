@@ -1,0 +1,56 @@
+l_english:
+ # Thousand Qi Needles
+ summon_thousand_qi_needles_decision:0 "Unleash a Thousand Qi Needles"
+ summon_thousand_qi_needles_decision_desc:0 "From your meridians, a storm of needle-fine qi erupts into the sky, glittering like silver rain as it drills through all beneath heaven."
+ summon_thousand_qi_needles_decision_confirm:0 "Let the needles fly!"
+ summon_thousand_qi_needles_decision_tooltip:0 "Unleash a one-time secret art that tears mortal armies apart."
+ summon_thousand_qi_needles_decision_effect1:0 "Once, a few qi needles were enough to hunt spirit beasts. Today, I cast forth a thousand."
+ summon_thousand_qi_needles_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."
+
+ # Nine Heavens Sword Intent
+ summon_nine_heavens_sword_intent_decision:0 "Manifest Nine Heavens Sword Intent"
+ summon_nine_heavens_sword_intent_decision_desc:0 "Nine strands of sword intent descend from the firmament, each blade of qi splitting mountains and carving open the void."
+ summon_nine_heavens_sword_intent_decision_confirm:0 "Heavens, heed my sword!"
+ summon_nine_heavens_sword_intent_decision_tooltip:0 "Invoke a one-time supreme sword art that can cleave through hosts and banners alike."
+ summon_nine_heavens_sword_intent_decision_effect1:0 "I once shaped a single thread of sword qi to cut stone. Now, the Nine Heavens forge my edge."
+ summon_nine_heavens_sword_intent_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."
+
+ # Golden Core Flame Lotus
+ summon_golden_core_flame_lotus_decision:0 "Bloom the Golden Core Flame Lotus"
+ summon_golden_core_flame_lotus_decision_desc:0 "A radiant lotus blossoms from your dantian, each petal blazing with purified core-flame that turns armor, flesh, and spirit alike to ash."
+ summon_golden_core_flame_lotus_decision_confirm:0 "Let the lotus bloom in fire!"
+ summon_golden_core_flame_lotus_decision_tooltip:0 "Release a one-time core-flame lotus that engulfs entire armies."
+ summon_golden_core_flame_lotus_decision_effect1:0 "I once kindled a spark to warm my cave. Now, that spark becomes a lotus of annihilation."
+ summon_golden_core_flame_lotus_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."
+
+ # Nascent Soul Phantom
+ summon_nascent_soul_phantom_decision:0 "Summon the Nascent Soul Phantom"
+ summon_nascent_soul_phantom_decision_desc:0 "Your nascent soul steps beyond the flesh and towers over the battlefield as a colossal phantom, suppressing all realms beneath its will."
+ summon_nascent_soul_phantom_decision_confirm:0 "Soul, descend!"
+ summon_nascent_soul_phantom_decision_tooltip:0 "Call forth a one-time nascent soul manifestation that overwhelms sect armies."
+ summon_nascent_soul_phantom_decision_effect1:0 "Once, my nascent soul was but a faint wisp. Now it stands tall enough to blot out the sun."
+ summon_nascent_soul_phantom_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."
+
+ # Heaven-Severing Blade
+ summon_heaven_severing_blade_decision:0 "Unleash the Heaven-Severing Blade"
+ summon_heaven_severing_blade_decision_desc:0 "A single slash of severing qi sweeps across heaven and earth, cutting through fate itself and sundering all dao beneath its edge."
+ summon_heaven_severing_blade_decision_confirm:0 "Sever the heavens!"
+ summon_heaven_severing_blade_decision_tooltip:0 "Deliver a one-time heaven-severing strike that annihilates elite hosts."
+ summon_heaven_severing_blade_decision_effect1:0 "I once split a minor tribulation with a weak blade of qi. Today, I cut the heavens themselves."
+ summon_heaven_severing_blade_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."
+
+ # Myriad Dao Suppression Domain
+ summon_myriad_dao_suppression_domain_decision:0 "Unfurl the Myriad Dao Suppression Domain"
+ summon_myriad_dao_suppression_domain_decision_desc:0 "A boundless domain spreads from your body, pressing down upon heaven and earth until every foreign dao is silenced."
+ summon_myriad_dao_suppression_domain_decision_confirm:0 "Domain—suppress all daos!"
+ summon_myriad_dao_suppression_domain_decision_tooltip:0 "Deploy a one-time supreme domain that strips enemies of technique and momentum."
+ summon_myriad_dao_suppression_domain_decision_effect1:0 "I once stilled a single dao ripple in meditation. Now, my domain buries the myriad daos."
+ summon_myriad_dao_suppression_domain_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."
+
+ # Heavenly Tribulation Descent
+ summon_heavenly_tribulation_descent_decision:0 "Command Heavenly Tribulation"
+ summon_heavenly_tribulation_descent_decision_desc:0 "The tribulation that once judged your ascent now obeys your will; violet-black lightning descends in endless waves to erase all opposition."
+ summon_heavenly_tribulation_descent_decision_confirm:0 "Tribulation, descend!"
+ summon_heavenly_tribulation_descent_decision_tooltip:0 "Invoke a one-time heavenly punishment that devastates entire war hosts."
+ summon_heavenly_tribulation_descent_decision_effect1:0 "I once endured heavenly wrath to rise. Now, I wield that wrath as my own blade."
+ summon_heavenly_tribulation_descent_decision_effect2:0 "#help This art can be invoked again after cooldown if your summoned host has fallen."

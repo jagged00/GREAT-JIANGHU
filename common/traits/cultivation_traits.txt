@@ -146,6 +146,10 @@ cultivation_qi_refining = {
 	prowess = 2
 	learning = 2
 	health = 0.5
+	dread = 5
+	attraction_opinion = 5
+	monthly_lifestyle_experience = 0.05
+	enemy_hostile_scheme_success_chance_add = -10
 	
 
 	# Dummy flags — just here for loc really.
@@ -202,6 +206,11 @@ cultivation_qi_building = {
 	prowess = 3
 	learning = 3
 	health = 1.0
+	dread = 10
+	attraction_opinion = 10
+	monthly_prestige = 0.5
+	monthly_lifestyle_experience = 0.05
+	enemy_hostile_scheme_success_chance_add = -15
 	
 	compatibility = {
 		cultivation_qi_refining = @pos_compat_low
@@ -252,6 +261,12 @@ cultivation_core_formation = {
 	prowess = 5
 	learning = 4
 	health = 1.5
+	dread = 20
+	attraction_opinion = 20
+	monthly_prestige = 1
+	monthly_piety = 0.5
+	monthly_lifestyle_experience = 0.1
+	enemy_hostile_scheme_success_chance_add = -20
 	
 	# +15 years lifespan
 	health_penalty_mult = -0.05
@@ -306,6 +321,12 @@ cultivation_nascent_soul = {
 	learning = 5
 	health = 2.0
 	advantage = 10
+	dread = 30
+	attraction_opinion = 25
+	monthly_prestige = 1.5
+	monthly_piety = 1
+	monthly_lifestyle_experience = 0.1
+	enemy_hostile_scheme_success_chance_add = -30
 	
 	# +40 years lifespan
 	health_penalty_mult = -0.10
@@ -360,7 +381,12 @@ cultivation_heavenly_being = {
 	learning = 6
 	health = 3.0
 	advantage = 20
-	monthly_prestige = 0.5
+	monthly_prestige = 2
+	monthly_piety = 1
+	monthly_lifestyle_experience = 0.15
+	dread = 45
+	attraction_opinion = 35
+	enemy_hostile_scheme_success_chance_add = -40
 	
 	# +70 years lifespan
 	health_penalty_mult = -0.15
@@ -415,8 +441,13 @@ cultivation_four_axis = {
 	learning = 8
 	health = 4.0
 	advantage = 30
-	monthly_prestige = 1.0
+	monthly_prestige = 3
+	monthly_piety = 2
+	monthly_lifestyle_experience = 0.15
+	dread = 60
+	attraction_opinion = 50
 	dread_gain_mult = 0.25
+	enemy_hostile_scheme_success_chance_add = -50
 	
 	# +100 years lifespan
 	health_penalty_mult = -0.20
@@ -471,8 +502,13 @@ cultivation_integration = {
 	learning = 10
 	health = 5.0
 	advantage = 50
-	monthly_prestige = 2.0
+	monthly_prestige = 4
+	monthly_piety = 2
+	monthly_lifestyle_experience = 0.2
+	dread = 80
+	attraction_opinion = 65
 	dread_gain_mult = 0.5
+	enemy_hostile_scheme_success_chance_add = -60
 	
 	# +150 years lifespan + Resurrection mechanic
 	health_penalty_mult = -0.30
@@ -529,8 +565,13 @@ cultivation_star_shattering = {
 	learning = 12
 	health = 6.0
 	advantage = 70
-	monthly_prestige = 3.0
+	monthly_prestige = 5
+	monthly_piety = 3
+	monthly_lifestyle_experience = 0.2
+	dread = 100
+	attraction_opinion = 80
 	dread_gain_mult = 0.75
+	enemy_hostile_scheme_success_chance_add = -70
 	
 	# +200 years lifespan
 	health_penalty_mult = -0.40
@@ -585,8 +626,13 @@ cultivation_sacred_vessel = {
 	learning = 15
 	health = 8.0
 	advantage = 90
-	monthly_prestige = 4.0
+	monthly_prestige = 7
+	monthly_piety = 4
+	monthly_lifestyle_experience = 0.25
+	dread = 125
+	attraction_opinion = 100
 	dread_baseline_add = 20
+	enemy_hostile_scheme_success_chance_add = -80
 	
 	# +280 years lifespan
 	health_penalty_mult = -0.50
@@ -641,9 +687,14 @@ cultivation_entering_nirvana = {
 	learning = 18
 	health = 10.0
 	advantage = 100
-	monthly_prestige = 5.0
+	monthly_prestige = 10
+	monthly_piety = 6
+	monthly_lifestyle_experience = 0.3
+	dread = 150
+	attraction_opinion = 120
 	dread_baseline_add = 30
 	stress_loss_mult = 0.5
+	enemy_hostile_scheme_success_chance_add = -90
 	
 	# +350 years lifespan
 	health_penalty_mult = -0.60
@@ -694,6 +745,12 @@ cultivation_true_immortal = {
 	}
 	
 	immortal = yes
+	no_prowess_loss_from_age = yes
+	flag = immortal_visuals
+	flag = immortal_fertility
+	flag = immortal_incapability
+	flag = immune_to_disease
+	flag = blocks_getting_non_epidemic_disease
 	martial = 25
 	prowess = 40
 	learning = 20

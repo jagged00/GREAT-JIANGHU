@@ -1,0 +1,59 @@
+# Path trait assignment helpers.
+
+cultivation_clear_path_traits_effect = {
+	remove_trait = cultivation_path_orthodox
+	remove_trait = cultivation_path_unorthodox
+	remove_trait = cultivation_path_demonic
+	remove_trait = cultivation_path_vagrant
+}
+
+cultivation_clear_path_modifiers_effect = {
+	remove_character_modifier = cultivation_path_orthodox_modifier
+	remove_character_modifier = cultivation_path_unorthodox_modifier
+	remove_character_modifier = cultivation_path_demonic_modifier
+	remove_character_modifier = cultivation_path_vagrant_modifier
+}
+
+cultivation_assign_path_trait_from_faith_effect = {
+	if = {
+		limit = { has_doctrine = tenet_orthodox_cultivation }
+		cultivation_clear_path_traits_effect = yes
+		cultivation_clear_path_modifiers_effect = yes
+		add_trait = cultivation_path_orthodox
+		add_character_modifier = {
+			modifier = cultivation_path_orthodox_modifier
+		}
+	}
+	else_if = {
+		limit = { has_doctrine = tenet_unorthodox_cultivation }
+		cultivation_clear_path_traits_effect = yes
+		cultivation_clear_path_modifiers_effect = yes
+		add_trait = cultivation_path_unorthodox
+		add_character_modifier = {
+			modifier = cultivation_path_unorthodox_modifier
+		}
+	}
+	else_if = {
+		limit = { has_doctrine = tenet_demonic_cultivation }
+		cultivation_clear_path_traits_effect = yes
+		cultivation_clear_path_modifiers_effect = yes
+		add_trait = cultivation_path_demonic
+		add_character_modifier = {
+			modifier = cultivation_path_demonic_modifier
+		}
+	}
+	else_if = {
+		limit = { has_doctrine = tenet_vagrant_cultivation }
+		cultivation_clear_path_traits_effect = yes
+		cultivation_clear_path_modifiers_effect = yes
+		add_trait = cultivation_path_vagrant
+		add_character_modifier = {
+			modifier = cultivation_path_vagrant_modifier
+		}
+	}
+	else = {
+		# Left cultivation paths entirely: clean up old path identity.
+		cultivation_clear_path_traits_effect = yes
+		cultivation_clear_path_modifiers_effect = yes
+	}
+}

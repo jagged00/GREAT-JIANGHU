@@ -1,0 +1,113 @@
+# Player and AI path trait assignment decisions.
+
+choose_orthodox_cultivation_path_decision = {
+	decision_group_type = major
+	title = choose_orthodox_cultivation_path_decision
+	desc = choose_orthodox_cultivation_path_decision_desc
+	selection_tooltip = choose_orthodox_cultivation_path_decision_tooltip
+	confirm_text = choose_orthodox_cultivation_path_decision_confirm
+
+	is_shown = {
+		has_doctrine = tenet_orthodox_cultivation
+		NOT = { has_trait = cultivation_path_orthodox }
+	}
+
+	is_valid = {
+		has_doctrine = tenet_orthodox_cultivation
+	}
+
+	effect = {
+		cultivation_assign_path_trait_from_faith_effect = yes
+	}
+
+	ai_check_interval = 60
+	ai_potential = {
+		has_doctrine = tenet_orthodox_cultivation
+		NOT = { has_trait = cultivation_path_orthodox }
+	}
+	ai_will_do = { base = 100 }
+}
+
+choose_unorthodox_cultivation_path_decision = {
+	decision_group_type = major
+	title = choose_unorthodox_cultivation_path_decision
+	desc = choose_unorthodox_cultivation_path_decision_desc
+	selection_tooltip = choose_unorthodox_cultivation_path_decision_tooltip
+	confirm_text = choose_unorthodox_cultivation_path_decision_confirm
+
+	is_shown = {
+		has_doctrine = tenet_unorthodox_cultivation
+		NOT = { has_trait = cultivation_path_unorthodox }
+	}
+
+	is_valid = {
+		has_doctrine = tenet_unorthodox_cultivation
+	}
+
+	effect = {
+		cultivation_assign_path_trait_from_faith_effect = yes
+	}
+
+	ai_check_interval = 60
+	ai_potential = {
+		has_doctrine = tenet_unorthodox_cultivation
+		NOT = { has_trait = cultivation_path_unorthodox }
+	}
+	ai_will_do = { base = 100 }
+}
+
+choose_demonic_cultivation_path_decision = {
+	decision_group_type = major
+	title = choose_demonic_cultivation_path_decision
+	desc = choose_demonic_cultivation_path_decision_desc
+	selection_tooltip = choose_demonic_cultivation_path_decision_tooltip
+	confirm_text = choose_demonic_cultivation_path_decision_confirm
+
+	is_shown = {
+		has_doctrine = tenet_demonic_cultivation
+		NOT = { has_trait = cultivation_path_demonic }
+	}
+
+	is_valid = {
+		has_doctrine = tenet_demonic_cultivation
+	}
+
+	effect = {
+		cultivation_assign_path_trait_from_faith_effect = yes
+	}
+
+	ai_check_interval = 60
+	ai_potential = {
+		has_doctrine = tenet_demonic_cultivation
+		NOT = { has_trait = cultivation_path_demonic }
+	}
+	ai_will_do = { base = 100 }
+}
+
+choose_vagrant_cultivation_path_decision = {
+	decision_group_type = major
+	title = choose_vagrant_cultivation_path_decision
+	desc = choose_vagrant_cultivation_path_decision_desc
+	selection_tooltip = choose_vagrant_cultivation_path_decision_tooltip
+	confirm_text = choose_vagrant_cultivation_path_decision_confirm
+
+	is_shown = {
+		has_doctrine = tenet_vagrant_cultivation
+		NOT = { has_trait = cultivation_path_vagrant }
+	}
+
+	is_valid = {
+		has_doctrine = tenet_vagrant_cultivation
+	}
+
+	effect = {
+		cultivation_assign_path_trait_from_faith_effect = yes
+	}
+
+	ai_check_interval = 60
+	ai_potential = {
+		has_doctrine = tenet_vagrant_cultivation
+		NOT = { has_trait = cultivation_path_vagrant }
+	}
+	ai_will_do = { base = 100 }
+}

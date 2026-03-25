@@ -19,13 +19,19 @@ teach_cultivation_interaction = {
 		scope:actor = {
 			is_alive = yes
 			is_cultivator = yes
+<<<<<<< codex/import-summon_qi.txt-and-realm-traits-vu1i3j
 			has_meridian_trait = yes
+=======
+>>>>>>> main
 		}
 		scope:recipient = {
 			is_alive = yes
 			is_courtier_of = scope:actor
 			is_mortal = yes
+<<<<<<< codex/import-summon_qi.txt-and-realm-traits-vu1i3j
 			has_meridian_trait = yes
+=======
+>>>>>>> main
 		}
 	}
 
@@ -33,15 +39,20 @@ teach_cultivation_interaction = {
 		scope:recipient = {
 			is_courtier_of = scope:actor
 			is_mortal = yes
+<<<<<<< codex/import-summon_qi.txt-and-realm-traits-vu1i3j
 			has_meridian_trait = yes
 		}
 		scope:actor = { has_meridian_trait = yes }
+=======
+		}
+>>>>>>> main
 	}
 
 	ai_will_do = {
 		base = 50
 		modifier = {
 			factor = 1000
+<<<<<<< codex/import-summon_qi.txt-and-realm-traits-vu1i3j
 				scope:recipient = {
 					is_close_family_of = scope:actor
 					is_courtier_of = scope:actor
@@ -58,6 +69,22 @@ teach_cultivation_interaction = {
 					has_meridian_trait = yes
 				}
 			}
+=======
+			scope:recipient = {
+				is_close_family_of = scope:actor
+				is_courtier_of = scope:actor
+				is_mortal = yes
+			}
+		}
+		modifier = {
+			factor = 300
+			scope:recipient = {
+				is_extended_family_of = scope:actor
+				is_courtier_of = scope:actor
+				is_mortal = yes
+			}
+		}
+>>>>>>> main
 		modifier = {
 			factor = 0
 			scope:recipient = { is_cultivator = yes }

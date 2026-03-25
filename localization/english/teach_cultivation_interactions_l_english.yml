@@ -1,0 +1,3 @@
+l_english:
+ teach_cultivation_interaction:0 "Teach Cultivation"
+ teach_cultivation_interaction_desc:0 "Guide [recipient.GetShortUINameNoTooltip] through breath control and meridian circulation, awakening the first step on the dao path."

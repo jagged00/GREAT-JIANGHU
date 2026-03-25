@@ -1,61 +1,61 @@
 ﻿l_english:
 
  ##Martial Arts Men-at-Arms
- martial_artist_cultivator:0 "Cultivator"
- martial_artist_army_1:0 "Martial Artist"
- martial_artist_army_2:0 "Master Martial Artist"
- martial_artist_army_3:0 "Grand Master Martial Artist"
- zombie_army_1:0 "Zombie"
- zombie_army_2:0 "Undead"
- zombie_army_3:0 "Jiang-Shi"
- zombie_army_4:0 "Resurrected"
- zombie_army_5:0 "Death Lord"
- immortal_army_1:0 "Jade Warrior"
- immortal_army_2:0 "Immortal Warrior"
- 
+ martial_artist_cultivator:0 "Qi Initiates"
+ martial_artist_army_1:0 "Sect Disciples"
+ martial_artist_army_2:0 "Inner-Court Adepts"
+ martial_artist_army_3:0 "Grandmaster Sword Adepts"
+ zombie_army_1:0 "Corpse Thralls"
+ zombie_army_2:0 "Risen Servitors"
+ zombie_army_3:0 "Jiangshi Enforcers"
+ zombie_army_4:0 "Revenant Guardians"
+ zombie_army_5:0 "Death-Qi Lords"
+ immortal_army_1:0 "Jade Immortal Guard"
+ immortal_army_2:0 "Ascended Immortal Guard"
+
  ##Martial Arts Men-at-Arms Descriptions
- martial_artist_cultivator_flavor:0 "Cultivators that just started in the way of Immortality"
- martial_artist_army_1_flavor:0 "Newly trained martial artist."
- martial_artist_army_2_flavor:0 "Martial artist's that mastered their martial ways. A well trained warrior."
- martial_artist_army_3_flavor:0 "Martial artist that trascended the human limits. Can use sword qi."
- zombie_army_1_flavor:0 "A Zombie born from decased body. Can't think or cultivate. Meat shield for frontlines."
- zombie_army_2_flavor:0 "First try at resurrection. Can't think on his own but can use some qi."
- zombie_army_3_flavor:0 "Widely known and accepted way of resurrection. Jiang-Shi's is must have for some sects way of cultivation. Can understand and use cultivation. Loyal to creator cultivator."
- zombie_army_4_flavor:0 "Nearly perfect resurrected. Has some memories of their past lives and retains some cultivation. Can think and oparate on its own. Have a small bond with its creator."
- zombie_army_5_flavor:0 "Death Lords are resurrected people that cultivated death qi and reach immortal realm."
- immortal_army_1_flavor:0 "Jade Warriors have reached immortal realm and have royal blood in them. They are solitary and honoroble true immortals."
- immortal_army_2_flavor:0 "They reached immortal realm with sheer power. The only thing they want is fight."
+ martial_artist_cultivator_flavor:0 "Newly awakened disciples who have only just begun circulating qi."
+ martial_artist_army_1_flavor:0 "Outer-court fighters drilled in foundational forms and disciplined battlefield coordination."
+ martial_artist_army_2_flavor:0 "Veteran adepts whose meridians are tempered enough to channel refined martial qi."
+ martial_artist_army_3_flavor:0 "Grandmasters who have surpassed mortal limits and release sword-qi with each strike."
+ zombie_army_1_flavor:0 "Freshly animated corpses with no will of their own, driven forward as expendable shields."
+ zombie_army_2_flavor:0 "Crude revenants that obey simple commands and can channel faint traces of death qi."
+ zombie_army_3_flavor:0 "Properly refined jiangshi enforcers, feared for their relentless discipline and tireless advance."
+ zombie_army_4_flavor:0 "High-grade revenants that retain fragments of memory, tactical instinct, and independent movement."
+ zombie_army_5_flavor:0 "Death-Qi Lords are immortal-grade undead commanders whose aura withers the living."
+ immortal_army_1_flavor:0 "Jade Immortal Guards are noble ascendants whose tempered bodies gleam like polished jade."
+ immortal_army_2_flavor:0 "Ascended Immortal Guards are peerless veterans who seek only worthy battle."
 
  ##############
  ##Bloodline Men-at-Arms
  ##############
- yin_cultivator_1:0"Yin Cultivator"
- yin_cultivator_1_flavor:0"Yin Cultivator"
- yin_cultivator_2:0"Master Yin Cultivator"
- yin_cultivator_2_flavor:0"Master Yin Cultivator"
- yin_cultivator_3:0"Grandmaster Yin Cultivator"
- yin_cultivator_3_flavor:0"Grandmaster Yin Cultivator"
- 
- yang_cultivator_1:0"Yang Cultivator"
- yang_cultivator_1_flavor:0"Yang Cultivator"
- yang_cultivator_2:0"Master Yang Cultivator"
- yang_cultivator_2_flavor:0"Yang Cultivator"
- yang_cultivator_3:0"Grandmaster Yang Cultivator"
- yang_cultivator_3_flavor:0"Yang Cultivator"
- 
- primal_cultivator_1:0"Primal Cultivator"
- primal_cultivator_1_flavor:0"Primal Cultivator"
- primal_cultivator_2:0"Master Primal Cultivator"
- primal_cultivator_2_flavor:0"Primal Cultivator"
- primal_cultivator_3:0"Grandmaster Primal Cultivator"
- primal_cultivator_3_flavor:0"Primal Cultivator"
- 
- sun_cultivator_1:0"Sand Warrior"
- sun_cultivator_1_flavor:0"Sand Warrior"
- sun_cultivator_2:0"Master Sand Warrior"
- sun_cultivator_2_flavor:0"Sand Warrior"
- sun_cultivator_3:0"Grandmaster Sand Warrior" 
- sun_cultivator_3_flavor:0"Sand Warrior
+ yin_cultivator_1:0"Yin Attendants"
+ yin_cultivator_1_flavor:0"Warriors trained in cold, yielding yin circulation."
+ yin_cultivator_2:0"Yin Wardens"
+ yin_cultivator_2_flavor:0"Battle-tested yin cultivators who can sap momentum and endure long engagements."
+ yin_cultivator_3:0"Yin Grandmasters"
+ yin_cultivator_3_flavor:0"Elite yin experts whose techniques turn an enemy's force against them."
+
+ yang_cultivator_1:0"Yang Attendants"
+ yang_cultivator_1_flavor:0"Fiery frontline cultivators who channel explosive yang force."
+ yang_cultivator_2:0"Yang Wardens"
+ yang_cultivator_2_flavor:0"Disciplined yang veterans who overwhelm foes with relentless offense."
+ yang_cultivator_3:0"Yang Grandmasters"
+ yang_cultivator_3_flavor:0"Supreme yang experts whose strikes burn like a midday sun."
+
+ primal_cultivator_1:0"Primal Attendants"
+ primal_cultivator_1_flavor:0"Cultivators who emulate ancient beast instincts and raw body refinement."
+ primal_cultivator_2:0"Primal Wardens"
+ primal_cultivator_2_flavor:0"Hardened primal warriors whose bodies rival tempered spirit steel."
+ primal_cultivator_3:0"Primal Grandmasters"
+ primal_cultivator_3_flavor:0"Ancient-style grandmasters who fight with untamed, earth-shaking ferocity."
+
+ sun_cultivator_1:0"Dust-Path Warriors"
+ sun_cultivator_1_flavor:0"Skirmishers adapted to harsh winds, grit, and relentless marches."
+ sun_cultivator_2:0"Dune Wardens"
+ sun_cultivator_2_flavor:0"Veterans who shape drifting sand and searing heat into battlefield control."
+ sun_cultivator_3:0"Sun-Dune Grandmasters"
+ sun_cultivator_3_flavor:0"Grandmasters of the desert path whose techniques bury foes in storm and flame."
  
  ##############
  ##Dynasty
@@ -83,13 +83,13 @@
  IMMORTAL_CULTIVATOR_DESCRIPTION:0 "#weak [GetMaA('immortal_army_1').GetName] and [GetMaA('immortal_army_2').GetName] Requires: Immortal Realm#!"
 
  ZOMBIE_UNLOCK_DESCRIPTION:0 "Can recruit [GetMaA('zombie_army_4').GetName] and [GetMaA('zombie_army_5').GetName] as [men_at_arms|E]"
- ZOMBIE_DESCRIPTION:0 "#weak [GetMaA('zombie_army_1').GetName], Requieres: Qi Gathering and up, \n[GetMaA('zombie_army_2').GetName], Requires: Golden Core and up, \n[GetMaA('zombie_army_3').GetName], Requires: Peak Realm and up, \n[GetMaA('zombie_army_4').GetName], Requires: Unrestrained Realm and up, \n[GetMaA('zombie_army_5').GetName], Requires: Immortal Realm#!"
+ ZOMBIE_DESCRIPTION:0 "#weak [GetMaA('zombie_army_1').GetName], Requires: Qi Gathering and above\n[GetMaA('zombie_army_2').GetName], Requires: Golden Core and above\n[GetMaA('zombie_army_3').GetName], Requires: Peak Realm and above\n[GetMaA('zombie_army_4').GetName], Requires: Unrestrained Realm and above\n[GetMaA('zombie_army_5').GetName], Requires: Immortal Realm#!"
  
  SEDUCER_UNLOCK_DESCRIPTION:0 ""
  SEDUCER_DESCRIPTION:0 ""
 
  MARTIAL_ARTIST_UNLOCK_DESCRIPTION:0 "Can recruit [GetMaA('martial_artist_army_1').GetName], [GetMaA('martial_artist_army_2').GetName] and [GetMaA('martial_artist_army_3').GetName] as [men_at_arms|E]"
- MARTIAL_ARTIST_DESCRIPTION:0 "#weak [GetMaA('martial_artist_army_1').GetName], Requieres: Qi Gathering and up, \n[GetMaA('martial_artist_army_2').GetName], Requires: Peak Realm and up, \n[GetMaA('martial_artist_army_3').GetName] Requires: Unrestrained Realm and up#!"
+ MARTIAL_ARTIST_DESCRIPTION:0 "#weak [GetMaA('martial_artist_army_1').GetName], Requires: Qi Gathering and above\n[GetMaA('martial_artist_army_2').GetName], Requires: Peak Realm and above\n[GetMaA('martial_artist_army_3').GetName], Requires: Unrestrained Realm and above#!"
  
  CULTIVATOR_UNLOCK_DESCRIPTION:0 ""
  CULTIVATOR_DESCRIPTION:0 ""
@@ -147,8 +147,8 @@
  challenge_to_sect_spar:0 "Challenge to Sect Spar"
  challenge_to_sect_spar_desc:0 "Challenge [recipient.GetTitledFirstName] to a friendly cultivation spar in the sect courtyard.\n\n#bold Your Record:#! [actor.Var('sect_spars_won').GetValue]W - [actor.Var('sect_spars_lost').GetValue]L ([actor.Var('sect_spars_total').GetValue] total)\n#bold Their Record:#! [recipient.Var('sect_spars_won').GetValue]W - [recipient.Var('sect_spars_lost').GetValue]L ([recipient.Var('sect_spars_total').GetValue] total)"
  
- cultivation_spar_effect.tt:0 "Can gain #P [GetLifestyle('cultivation_lifestyle').GetName] #!Experiance"
- cultivation_spar_effect.ttt:0 "Can gain #P [GetLifestyle('cultivation_lifestyle').GetName] #!Experiance"
+ cultivation_spar_effect.tt:0 "Can gain #P [GetLifestyle('cultivation_lifestyle').GetName] #!Experience"
+ cultivation_spar_effect.ttt:0 "Can gain #P [GetLifestyle('cultivation_lifestyle').GetName] #!Experience"
  
  ##################################################
  # MODIFIERS
@@ -211,7 +211,7 @@
  spar_actor_is_inexperienced:0 "You have limited sparring experience ([actor.Var('sect_spars_total').GetValue] total spars)"
 
  sect_spar_option_tooltip:0 "Your record: #P [Character.Var('sect_spars_won').GetValue]W#! - #N [Character.Var('sect_spars_lost').GetValue]L#! ([Character.Var('sect_spars_total').GetValue] total)"
- sect_join_is_cultivator_desc:0 "You are cultivator."
+ sect_join_is_cultivator_desc:0 "You are a cultivator."
  sect_join_isnt_cultivator_desc:0 "You are not a cultivator."
 
  ##################################################
@@ -934,7 +934,7 @@
  cultivation_unorthodox_adj:0 "Unorthodox"
  cultivation_unorthodox_adherent:0 "Unorthodox Cultivator"
  cultivation_unorthodox_adherent_plural:0 "Unorthodox Cultivators"
- cultivation_unorthodox_desc:0 "The path of the unorthodox cultivation."
+ cultivation_unorthodox_desc:0 "The unorthodox road of cultivation, where unconventional methods eclipse rigid doctrine."
 
  # ============================================================================
  # DEMONIC FAMILY RELIGIONS (4)
@@ -944,7 +944,7 @@
  cultivation_demonic_adj:0 "Demonic"
  cultivation_demonic_adherent:0 "Demon"
  cultivation_demonic_adherent_plural:0 "Demons"
- cultivation_demonic_desc:0 "The path of massacre."
+ cultivation_demonic_desc:0 "The demonic road of slaughter, blood, and forbidden arts."
 
  # ============================================================================
  # VAGRANT FAMILY RELIGIONS (4)
@@ -954,7 +954,7 @@
  cultivation_vagrant_adj:0 "Vagrant"
  cultivation_vagrant_adherent:0 "Vagrant"
  cultivation_vagrant_adherent_plural:0 "Vagrants"
- cultivation_vagrant_desc:0 "The rootless cultivation path - vagrant cultivators who walk alone."
+ cultivation_vagrant_desc:0 "A rootless road of cultivation walked by wandering heroes of the jianghu."
 
  # ============================================================================
  # TOTAL: 16 RELIGIONS x 5 KEYS = 80 LOCALIZATION ENTRIES
@@ -965,7 +965,7 @@
  mount_hua_sect_adj:0 "Mount Hua"
  mount_hua_sect_adherent:0 "Mount Hua Cultivator"
  mount_hua_sect_adherent_plural:0 "Mount Hua Cultivators"
- mount_hua_sect_desc:0 "A prestigious orthodox sect known for their elegant sword techniques and righteous cultivation path."
+ mount_hua_sect_desc:0 "A famed orthodox mountain sect renowned for elegant sword arts and unwavering righteous intent."
 
  heavenly_sword_pavilion:0 "Heavenly Sword Pavilion"
  heavenly_sword_pavilion_adj:0 "Heavenly Sword"
@@ -983,13 +983,13 @@
  ten_thousand_swords_valley_adj:0 "Ten Thousand Swords"
  ten_thousand_swords_valley_adherent:0 "Ten Thousand Swords Cultivator"
  ten_thousand_swords_valley_adherent_plural:0 "Ten Thousand Swords Cultivators"
- ten_thousand_swords_valley_desc:0 "A valley filled with countless sword techniques, where disciples learn from thousands of blade styles."
+ ten_thousand_swords_valley_desc:0 "A hidden sword valley where disciples inherit myriad sword manuals and temper their dao-heart in constant trial."
 
  violet_thunder_blade_sect:0 "Violet Thunder Blade Sect"
  violet_thunder_blade_sect_adj:0 "Violet Thunder"
  violet_thunder_blade_sect_adherent:0 "Violet Thunder Cultivator"
  violet_thunder_blade_sect_adherent_plural:0 "Violet Thunder Cultivators"
- violet_thunder_blade_sect_desc:0 "Wielders of lightning-infused swords, channeling thunder's fury through their blades."
+ violet_thunder_blade_sect_desc:0 "Sword cultivators who temper their blades in thunder-qi and strike with the wrath of violet lightning."
 
  eight_trigrams_palace:0 "Eight Trigrams Palace"
  eight_trigrams_palace_adj:0 "Eight Trigrams"
@@ -1067,13 +1067,13 @@
  dragon_whisper_sect_adj:0 "Dragon Whisper"
  dragon_whisper_sect_adherent:0 "Dragon Whisper Cultivator"
  dragon_whisper_sect_adherent_plural:0 "Dragon Whisper Cultivators"
- dragon_whisper_sect_desc:0 "Those who commune with dragon-lineage beasts and harness their ancient power."
+ dragon_whisper_sect_desc:0 "Beast tamers who commune with draconic bloodlines and borrow ancient dragon might."
 
  spirit_communion_temple:0 "Spirit Communion Temple"
  spirit_communion_temple_adj:0 "Spirit Communion"
  spirit_communion_temple_adherent:0 "Spirit Communion Cultivator"
  spirit_communion_temple_adherent_plural:0 "Spirit Communion Cultivators"
- spirit_communion_temple_desc:0 "Mediators between the human and beast realms, fostering mutual understanding and growth."
+ spirit_communion_temple_desc:0 "A mediator lineage that forges pacts between human cultivators and spirit beasts."
 
  thousand_beast_valley:0 "Thousand Beast Valley"
  thousand_beast_valley_adj:0 "Thousand Beast"
@@ -1151,25 +1151,25 @@
  yin_phoenix_sect_adj:0 "Yin Phoenix"
  yin_phoenix_sect_adherent:0 "Yin Phoenix Cultivator"
  yin_phoenix_sect_adherent_plural:0 "Yin Phoenix Cultivators"
- yin_phoenix_sect_desc:0 "Female yin cultivation masters who embody feminine power and allure."
+ yin_phoenix_sect_desc:0 "Yin-focused cultivators who refine moon-soft qi into overwhelming grace and killing intent."
 
  blissful_union_pavilion:0 "Blissful Union Pavilion"
  blissful_union_pavilion_adj:0 "Blissful Union"
  blissful_union_pavilion_adherent:0 "Blissful Union Cultivator"
  blissful_union_pavilion_adherent_plural:0 "Blissful Union Cultivators"
- blissful_union_pavilion_desc:0 "Balanced carnal cultivators seeking enlightenment through ecstatic union."
+ blissful_union_pavilion_desc:0 "Dual cultivators who seek enlightenment through harmonious union and refined breath exchange."
 
  jade_chamber_sect:0 "Jade Chamber Sect"
  jade_chamber_sect_adj:0 "Jade Chamber"
  jade_chamber_sect_adherent:0 "Jade Chamber Cultivator"
  jade_chamber_sect_adherent_plural:0 "Jade Chamber Cultivators"
- jade_chamber_sect_desc:0 "Experts in sensual arts and the cultivation of pleasure as a path to power."
+ jade_chamber_sect_desc:0 "A pleasure-dao lineage that tempers spirit and body through seductive arts and disciplined technique."
 
  eternal_pleasure_hall:0 "Eternal Pleasure Hall"
  eternal_pleasure_hall_adj:0 "Eternal Pleasure"
  eternal_pleasure_hall_adherent:0 "Eternal Pleasure Cultivator"
  eternal_pleasure_hall_adherent_plural:0 "Eternal Pleasure Cultivators"
- eternal_pleasure_hall_desc:0 "Masters of prolonged ecstasy who draw power from sustained bliss."
+ eternal_pleasure_hall_desc:0 "A forbidden lineage that refines desire into spiritual force through prolonged ecstasy."
 
  moonless_night_pavilion:0 "Moonless Night Pavilion"
  moonless_night_pavilion_adj:0 "Moonless Night"
@@ -1195,11 +1195,11 @@
  withered_soul_temple_adherent_plural:0 "Withered Soul Cultivators"
  withered_soul_temple_desc:0 "Practitioners who drain the essence from corpses to fuel their cultivation."
 
- hopping_corpse_sect:0 "Hopping Corpse Sect"
- hopping_corpse_sect_adj:0 "Hopping Corpse"
- hopping_corpse_sect_adherent:0 "Hopping Corpse Cultivator"
- hopping_corpse_sect_adherent_plural:0 "Hopping Corpse Cultivators"
- hopping_corpse_sect_desc:0 "Specialists in creating and controlling traditional Chinese jiangshi."
+ hopping_corpse_sect:0 "Jiangshi Refinement Sect"
+ hopping_corpse_sect_adj:0 "Jiangshi Refinement"
+ hopping_corpse_sect_adherent:0 "Jiangshi Refinement Cultivator"
+ hopping_corpse_sect_adherent_plural:0 "Jiangshi Refinement Cultivators"
+ hopping_corpse_sect_desc:0 "Corpse-path adepts who raise and command jiangshi through talisman seals and corpse qi."
 
  blood_river_sect:0 "Blood River Sect"
  blood_river_sect_adj:0 "Blood River"
@@ -1243,10 +1243,10 @@
  blood_yin_cult_adherent_plural:0 "Blood Yin Cultivators"
  blood_yin_cult_desc:0 "Vampiric cultivators who drain blood essence from their victims."
 
- blood_moon_demonic_sect:0 "Blood Moon Demonic Sect"
- blood_moon_demonic_sect_adj:0 "Blood Moon Demonic"
- blood_moon_demonic_sect_adherent:0 "Blood Moon Demonic Cultivator"
- blood_moon_demonic_sect_adherent_plural:0 "Blood Moon Demonic Cultivators"
+ blood_moon_demonic_sect:0 "Blood Moon Devil Court"
+ blood_moon_demonic_sect_adj:0 "Blood Moon Devil"
+ blood_moon_demonic_sect_adherent:0 "Blood Moon Devil Cultivator"
+ blood_moon_demonic_sect_adherent_plural:0 "Blood Moon Devil Cultivators"
  blood_moon_demonic_sect_desc:0 "Blood magic practitioners who draw power from the blood moon."
 
  scarlet_heart_palace:0 "Scarlet Heart Palace"
@@ -1255,17 +1255,17 @@
  scarlet_heart_palace_adherent_plural:0 "Scarlet Heart Cultivators"
  scarlet_heart_palace_desc:0 "Those who refine human hearts into cultivation resources."
 
- succubus_palace:0 "Succubus Palace"
- succubus_palace_adj:0 "Succubus"
- succubus_palace_adherent:0 "Succubus Cultivator"
- succubus_palace_adherent_plural:0 "Succubus Cultivators"
- succubus_palace_desc:0 "Demonic cultivators who drain life force through carnal pleasure, like succubi of legend."
+ succubus_palace:0 "Alluring Demon Palace"
+ succubus_palace_adj:0 "Alluring Demon"
+ succubus_palace_adherent:0 "Alluring Demon Cultivator"
+ succubus_palace_adherent_plural:0 "Alluring Demon Cultivators"
+ succubus_palace_desc:0 "Demonic charm cultivators who harvest life force through forbidden pleasure arts."
 
- womb_engraving_sect:0 "Womb Engraving Sect"
- womb_engraving_sect_adj:0 "Womb Engraving"
- womb_engraving_sect_adherent:0 "Womb Engraving Cultivator"
- womb_engraving_sect_adherent_plural:0 "Womb Engraving Cultivators"
- womb_engraving_sect_desc:0 "Dark practitioners who mark and enslave partners through forbidden carnal binding techniques."
+ womb_engraving_sect:0 "Crimson Binding Sect"
+ womb_engraving_sect_adj:0 "Crimson Binding"
+ womb_engraving_sect_adherent:0 "Crimson Binding Cultivator"
+ womb_engraving_sect_adherent_plural:0 "Crimson Binding Cultivators"
+ womb_engraving_sect_desc:0 "A taboo lineage that brands partners with blood-seals and binding marks."
 
  lone_wolf_wanderers:0 "Lone Wolf Wanderers"
  lone_wolf_wanderers_adj:0 "Lone Wolf"
@@ -1333,11 +1333,11 @@
  savage_fang_clan_adherent_plural:0 "Savage Fang Cultivators"
  savage_fang_clan_desc:0 "Beast tamers who embrace the savage nature of their companions."
 
- feral_bond_sect:0 "Feral Bond Sect"
- feral_bond_sect_adj:0 "Feral Bond"
- feral_bond_sect_adherent:0 "Feral Bond Cultivator"
- feral_bond_sect_adherent_plural:0 "Feral Bond Cultivators"
- feral_bond_sect_desc:0 "Those who form carnal bonds with beast companions, merging human and animal energies."
+ feral_bond_sect:0 "Wildbond Sect"
+ feral_bond_sect_adj:0 "Wildbond"
+ feral_bond_sect_adherent:0 "Wildbond Cultivator"
+ feral_bond_sect_adherent_plural:0 "Wildbond Cultivators"
+ feral_bond_sect_desc:0 "A primal lineage that forges life-and-blood bonds with spirit beasts."
 
  ## VISIT SECT DECISION TOOLTIPS
 
@@ -1419,8 +1419,8 @@
  visit_eternal_rest_clan_tooltip:0 "Visit the Eternal Rest Clan to learn about their cultivation path."
  visit_withered_soul_temple:0 "Withered Soul Temple"
  visit_withered_soul_temple_tooltip:0 "Visit the Withered Soul Temple to learn about their cultivation path."
- visit_hopping_corpse_sect:0 "Hopping Corpse Sect"
- visit_hopping_corpse_sect_tooltip:0 "Visit the Hopping Corpse Sect to learn about their cultivation path."
+ visit_hopping_corpse_sect:0 "Jiangshi Refinement Sect"
+ visit_hopping_corpse_sect_tooltip:0 "Visit the Jiangshi Refinement Sect to learn about their cultivation path."
  visit_blood_river_sect:0 "Blood River Sect"
  visit_blood_river_sect_tooltip:0 "Visit the Blood River Sect to learn about their cultivation path."
  visit_ten_thousand_corpse_valley:0 "Ten Thousand Corpse Valley"
@@ -1435,14 +1435,14 @@
  visit_miasma_swamp_sect_tooltip:0 "Visit the Miasma Swamp Sect to learn about their cultivation path."
  visit_blood_yin_cult:0 "Blood Yin Cult"
  visit_blood_yin_cult_tooltip:0 "Visit the Blood Yin Cult to learn about their cultivation path."
- visit_blood_moon_demonic_sect:0 "Crimson Moon Demonic Sect"
- visit_blood_moon_demonic_sect_tooltip:0 "Visit the Crimson Moon Demonic Sect to learn about their cultivation path."
+ visit_blood_moon_demonic_sect:0 "Blood Moon Devil Court"
+ visit_blood_moon_demonic_sect_tooltip:0 "Visit the Blood Moon Devil Court to learn about their cultivation path."
  visit_scarlet_heart_palace:0 "Scarlet Heart Palace"
  visit_scarlet_heart_palace_tooltip:0 "Visit the Scarlet Heart Palace to learn about their cultivation path."
- visit_succubus_palace:0 "Succubus Palace"
- visit_succubus_palace_tooltip:0 "Visit the Succubus Palace to learn about their cultivation path."
- visit_womb_engraving_sect:0 "Womb Engraving Sect"
- visit_womb_engraving_sect_tooltip:0 "Visit the Womb Engraving Sect to learn about their cultivation path."
+ visit_succubus_palace:0 "Alluring Demon Palace"
+ visit_succubus_palace_tooltip:0 "Visit the Alluring Demon Palace to learn about their cultivation path."
+ visit_womb_engraving_sect:0 "Crimson Binding Sect"
+ visit_womb_engraving_sect_tooltip:0 "Visit the Crimson Binding Sect to learn about their cultivation path."
  visit_lone_wolf_wanderers:0 "Lone Wolf Wanderers"
  visit_lone_wolf_wanderers_tooltip:0 "Visit the Lone Wolf Wanderers to learn about their cultivation path."
  visit_rootless_sword_alliance:0 "Rootless Sword Alliance"
@@ -1465,13 +1465,13 @@
  visit_wild_beast_mountain_tooltip:0 "Visit the Wild Beast Mountain to learn about their cultivation path."
  visit_savage_fang_clan:0 "Savage Fang Clan"
  visit_savage_fang_clan_tooltip:0 "Visit the Savage Fang Clan to learn about their cultivation path."
- visit_feral_bond_sect:0 "Feral Bond Sect"
- visit_feral_bond_sect_tooltip:0 "Visit the Feral Bond Sect to learn about their cultivation path."
+ visit_feral_bond_sect:0 "Wildbond Sect"
+ visit_feral_bond_sect_tooltip:0 "Visit the Wildbond Sect to learn about their cultivation path."
 
  ## VISIT EVENTS
 
  visit_cultivation_sect_decision:0 "Visit Cultivation Sect"
- visit_cultivation_sect_decision_desc:0 "In China cultivaters is part of some sects. Some sects has bacground old as this world and some is just founded. Visit a sect to learn more about them. Find out their history, their way of cultivation and maybe you will want to join them or make them Tremble in your presence."
+ visit_cultivation_sect_decision_desc:0 "Across the Middle Kingdom, cultivators gather beneath ancient and newly risen sect banners alike. Visit a sect to learn its history and dao, then decide whether to join its lineage—or make it tremble before your name."
  visit_cultivation_sect_decision_tooltip:0 "Choose a sect to visit."
  visit_cultivation_sect_decision_confirm:0 "Visit Sect"
 
@@ -1553,7 +1553,7 @@
  cultivation_sect_visit.2152.desc:0 "Those who disturb the eternal slumber, binding the dead to serve the living. A sect elder approaches to assess your potential."
  cultivation_sect_visit.2153.t:0 "Withered Soul Temple"
  cultivation_sect_visit.2153.desc:0 "Practitioners who drain the essence from corpses to fuel their cultivation. A sect elder approaches to assess your potential."
- cultivation_sect_visit.2154.t:0 "Hopping Corpse Sect"
+ cultivation_sect_visit.2154.t:0 "Jiangshi Refinement Sect"
  cultivation_sect_visit.2154.desc:0 "Specialists in creating and controlling traditional Chinese jiangshi. A sect elder approaches to assess your potential."
  cultivation_sect_visit.3000.t:0 "Blood River Sect"
  cultivation_sect_visit.3000.desc:0 "Demonic cultivators who bathe in rivers of their enemies' blood to grow stronger. A sect elder approaches to assess your potential."
@@ -1569,13 +1569,13 @@
  cultivation_sect_visit.3052.desc:0 "Dwellers in toxic swamps who cultivate through breathing poisonous miasma. A sect elder approaches to assess your potential."
  cultivation_sect_visit.3100.t:0 "Blood Yin Cult"
  cultivation_sect_visit.3100.desc:0 "Vampiric cultivators who drain blood essence from their victims. A sect elder approaches to assess your potential."
- cultivation_sect_visit.3101.t:0 "Blood Moon Demonic Sect"
+ cultivation_sect_visit.3101.t:0 "Blood Moon Devil Court"
  cultivation_sect_visit.3101.desc:0 "Blood magic practitioners who draw power from the blood moon. A sect elder approaches to assess your potential."
  cultivation_sect_visit.3102.t:0 "Scarlet Heart Palace"
  cultivation_sect_visit.3102.desc:0 "Those who refine human hearts into cultivation resources. A sect elder approaches to assess your potential."
- cultivation_sect_visit.3150.t:0 "Succubus Palace"
+ cultivation_sect_visit.3150.t:0 "Alluring Demon Palace"
  cultivation_sect_visit.3150.desc:0 "Demonic cultivators who drain life force through carnal pleasure, like succubi of legend. A sect elder approaches to assess your potential."
- cultivation_sect_visit.3151.t:0 "Womb Engraving Sect"
+ cultivation_sect_visit.3151.t:0 "Crimson Binding Sect"
  cultivation_sect_visit.3151.desc:0 "Dark practitioners who mark and enslave partners through forbidden carnal binding techniques. A sect elder approaches to assess your potential."
  cultivation_sect_visit.4000.t:0 "Lone Wolf Wanderers"
  cultivation_sect_visit.4000.desc:0 "Independent blade cultivators who walk their path alone, beholden to no sect. A sect elder approaches to assess your potential."
@@ -1599,7 +1599,7 @@
  cultivation_sect_visit.4150.desc:0 "Tamers of wild and savage beasts, forming bonds with untamed creatures. A sect elder approaches to assess your potential."
  cultivation_sect_visit.4151.t:0 "Savage Fang Clan"
  cultivation_sect_visit.4151.desc:0 "Beast tamers who embrace the savage nature of their companions. A sect elder approaches to assess your potential."
- cultivation_sect_visit.4152.t:0 "Feral Bond Sect"
+ cultivation_sect_visit.4152.t:0 "Wildbond Sect"
  cultivation_sect_visit.4152.desc:0 "Those who form carnal bonds with beast companions, merging human and animal energies. A sect elder approaches to assess your potential."
 
  ## JOIN EVENTS
@@ -1682,8 +1682,8 @@
  cultivation_sect_join.2152.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Eternal Rest Clan?"
  cultivation_sect_join.2153.t:0 "Join the Withered Soul Temple"
  cultivation_sect_join.2153.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Withered Soul Temple?"
- cultivation_sect_join.2154.t:0 "Join the Hopping Corpse Sect"
- cultivation_sect_join.2154.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Hopping Corpse Sect?"
+ cultivation_sect_join.2154.t:0 "Join the Jiangshi Refinement Sect"
+ cultivation_sect_join.2154.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Jiangshi Refinement Sect?"
  cultivation_sect_join.3000.t:0 "Join the Blood River Sect"
  cultivation_sect_join.3000.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Blood River Sect?"
  cultivation_sect_join.3001.t:0 "Join the Ten Thousand Corpse Valley"
@@ -1698,14 +1698,14 @@
  cultivation_sect_join.3052.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Miasma Swamp Sect?"
  cultivation_sect_join.3100.t:0 "Join the Blood Yin Cult"
  cultivation_sect_join.3100.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Blood Yin Cult?"
- cultivation_sect_join.3101.t:0 "Join the Crimson Moon Demonic Sect"
- cultivation_sect_join.3101.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Crimson Moon Demonic Sect?"
+ cultivation_sect_join.3101.t:0 "Join the Blood Moon Devil Court"
+ cultivation_sect_join.3101.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Blood Moon Devil Court?"
  cultivation_sect_join.3102.t:0 "Join the Scarlet Heart Palace"
  cultivation_sect_join.3102.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Scarlet Heart Palace?"
- cultivation_sect_join.3150.t:0 "Join the Succubus Palace"
- cultivation_sect_join.3150.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Succubus Palace?"
- cultivation_sect_join.3151.t:0 "Join the Womb Engraving Sect"
- cultivation_sect_join.3151.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Womb Engraving Sect?"
+ cultivation_sect_join.3150.t:0 "Join the Alluring Demon Palace"
+ cultivation_sect_join.3150.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Alluring Demon Palace?"
+ cultivation_sect_join.3151.t:0 "Join the Crimson Binding Sect"
+ cultivation_sect_join.3151.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Crimson Binding Sect?"
  cultivation_sect_join.4000.t:0 "Join the Lone Wolf Wanderers"
  cultivation_sect_join.4000.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Lone Wolf Wanderers?"
  cultivation_sect_join.4001.t:0 "Join the Rootless Sword Alliance"
@@ -1728,15 +1728,15 @@
  cultivation_sect_join.4150.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Wild Beast Mountain?"
  cultivation_sect_join.4151.t:0 "Join the Savage Fang Clan"
  cultivation_sect_join.4151.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Savage Fang Clan?"
- cultivation_sect_join.4152.t:0 "Join the Feral Bond Sect"
- cultivation_sect_join.4152.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Feral Bond Sect?"
+ cultivation_sect_join.4152.t:0 "Join the Wildbond Sect"
+ cultivation_sect_join.4152.desc:0 "The elder evaluates your cultivation level and resources. Will you join the Wildbond Sect?"
 
  ## COMMON EVENT OPTIONS
  sect_join:0 "Request to Join the Sect"
  sect_spar:0 "Spar with Their Disciples"
  sect_visit_cancel:0 "Take My Leave"
- sect_join_donate:0 "Offer gold to Join the Sect"
- sect_join_cancel:0 "Changed my Mind"
+ sect_join_donate:0 "Offer Gold to Join the Sect"
+ sect_join_cancel:0 "I Have Changed My Mind"
  
  tenet_sect_empty_1_name:0 ""
  tenet_sect_empty_1_desc:0 "Select new tenet."
@@ -2111,3 +2111,24 @@
  cultivation_select_right_partner_interaction_desc:0 "Choose this cultivator as your right dual cultivation partner. They will appear in your cultivation window."
  
  CULTIVATION_PARTNER_SELECTED_NOTIFICATION:0 "Cultivation partner selected"
+
+ # Meridian Traits
+ trait_poor_meridians:0 "Poor Meridians"
+ trait_poor_meridians_desc:0 "Clogged and fragile meridians that greatly hinder cultivation speed."
+ trait_poor_meridians_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has poor meridians and struggles to circulate qi."
+
+ trait_normal_meridians:0 "Normal Meridians"
+ trait_normal_meridians_desc:0 "Standard meridians that allow steady, ordinary cultivation."
+ trait_normal_meridians_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has normal meridians suited to regular cultivation."
+
+ trait_good_meridians:0 "Good Meridians"
+ trait_good_meridians_desc:0 "Well-formed meridians that accelerate qi circulation and training."
+ trait_good_meridians_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has good meridians and cultivates faster than most."
+
+ trait_excellent_meridians:0 "Excellent Meridians"
+ trait_excellent_meridians_desc:0 "Rare, high-grade meridians that grant exceptional cultivation growth."
+ trait_excellent_meridians_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] possesses excellent meridians and rapidly accumulates insight."
+
+ trait_heavenly_meridians:0 "Heavenly Meridians"
+ trait_heavenly_meridians_desc:0 "A legendary meridian constitution blessed by heaven itself."
+ trait_heavenly_meridians_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bears heavenly meridians and walks an extraordinary cultivation destiny."

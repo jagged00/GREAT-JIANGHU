@@ -143,6 +143,7 @@ dual_cultivation_boost = {
     prowess = 2
     attraction_opinion = 10
     stress_loss_mult = 0.1
+    monthly_lifestyle_xp_gain_mult = 0.25
 }
 
 # Cultivation Breakthrough Modifiers

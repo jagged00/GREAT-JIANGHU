@@ -13,9 +13,14 @@
     ai_check_interval = 0
     ai_potential = { always = no }
 
-    is_shown = {
-        is_adult = yes
-    }
+	    is_shown = {
+	        is_adult = yes
+	        has_meridian_trait = yes
+	    }
+
+	    is_valid = {
+	        has_meridian_trait = yes
+	    }
    
     widget = {
         gui = "decision_view_widget_option_list_generic"
